@@ -1,27 +1,12 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+## Generated Story 7968725839602910543
+* requisitos_inscripcion{"documentacion": "requisitos"}
+    - utter_respuesta_requisito_inscripcion
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
-
-## say goodbye
-* goodbye
-  - utter_goodbye
+## Generated Story -9057415639020422545
+* saludo
+    - utter_saludo
+* requisitos_inscripcion{"documentacion": "requisitos"}
+    - utter_respuesta_requisito_inscripcion
+* despedida
+    - utter_despedida
