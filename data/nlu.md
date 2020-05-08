@@ -18,6 +18,14 @@
 - de ninguna manera
 - no realmente
 
+## intent:saludo
+- Hola
+- Hola, buen dia
+- Buenos dias
+- Buenas tardes
+- Buenas noches
+- hola
+
 ## intent:requisitos_inscripcion
 - buenos días cuales son los [requisitos](documentacion) para inscribirme?
 - [Que necesito](documentacion) para inscribirme?
@@ -45,12 +53,33 @@
 - ¿[Es necesario presentar alguna documentación](documentacion) para la inscripción?
 - [Cuáles son los requisitos de inscripción?](documentacion)
 - [requisitos](documentacion) de inscripcion
-- [requisitos](documentacion) de inscripcion
 
-## intent:saludo
-- Hola
-- Hola, buen dia
-- Buenos dias
-- Buenas tardes
-- Buenas noches
-- hola
+## intent:plazos_inscripcion
+- ¿Me puedo inscribir en cualquier [momento](plazos)?
+- a partir de que [fecha](plazos) puedo presentarme para inscribirme en una carrera?
+- Cuáles son los [plazos](plazos) de inscripción?
+- [Hasta que tiempo](plazos) tengo para inscribirme?
+- Hay una [fecha límite](plazos) de inscripción?
+- Cuáles los los [plazos](plazos) de inscripción?
+- [Hasta cuando me puedo inscribir?](plazos)
+- La inscripción [se puede realizar en cualquier momento?](plazos)
+- [¿Se puede inscribir en cualquier mes?](plazos)
+- [¿Cuando me puedo inscribir?](plazos)
+- [¿Cuándo puedo inscribirme?](plazos)
+- ¿Aceptan mi documentación [en cualquier momento?](plazos)
+- Hola, le consulto [¿hasta cuándo tengo tiempo para inscribirme?](plazos)
+- [Hasta que fecha es el plazo](plazos) de inscripción?
+- [¿Cuál es la fecha o el plazo de inscripción?](plazos)
+- [¿Cuándo son las inscripciones?](plazos)
+- [Cuáles son las fechas](plazos) de inscripción?
+- [Fecha de inscripción?](plazos)
+- [¿Cuando debo inscribirme?](plazos)
+- ¿[Cuál es la fecha límite](plazos) de inscripción?
+- ¿[Qué días](plazos) están habilitados para inscripciones?
+- [Cuando se habilitan las inscripciones? ](plazos)
+- [hay fechas](plazos) para inscribirse?
+- ¿[Existen fechas preestablecidas](plazos) de inscripción?
+- [Puedo inscribirme en cualquier momento del año?](plazos)
+- [Hay un plazo](plazos) para la inscripción?
+- [¿Cuando me puedo inscribir?](plazos)
+- [¿Cuándo son las inscripciones?](plazos)
