@@ -3,16 +3,21 @@ actions:
 - utter_ayuda
 - utter_despedida
 - utter_feliz
+- utter_respuesta_evaluacion_coneau
 - utter_respuesta_plazos_inscripcion
 - utter_respuesta_requisito_inscripcion
+- utter_agradecimiento
 - utter_saludo
 entities:
+- certificadas
 - documentacion
 - plazos
 intents:
-- plazos_inscripcion
-- saludo
 - despedida
+- certificadas
+- saludo
+- evaluacion_coneau
+- plazos_inscripcion
 - requisitos_inscripcion
 - documentacion_inscripcion
 - afirmacion
@@ -27,10 +32,45 @@ responses:
   - text: Espero haberte ayudado hasta la proxima.
   utter_feliz:
   - text: Great carry on!
+  utter_respuesta_evaluacion_coneau:
+  - text: "Sí, y después de una década de evaluación de la CONEAU, en febrero de 2009\
+      \ logramos la autorización definitiva y pasamos de ser Instituto Universitario\
+      \ a Universidad, por decreto del Poder Ejecutivo Nacional.\nEn 2008, la UGD\
+      \ cumplió diez años de trayectoria. Desde 1998, año en que abrió sus puertas,\
+      \ nuestra universidad transitó su historia bajo distintos procesos de evaluación\
+      \ de la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU).\n\
+      La UGD fue evaluada en varias instancias. Primero, su proyecto original por\
+      \ CONEAU, el Consejo de Rectores de Universidades Privadas (CRUP), el Ministerio\
+      \ de Educación de la Nación; y a pedido de estos por otras instituciones y profesionales\
+      \ que emitieron su opinión, previo a la autorización. Una vez autorizado en\
+      \ 1998 su funcionamiento y validez de los títulos (Decreto 158 del Poder Ejecutivo\
+      \ Nacional), el Ministerio de Educación y la CONEAU realizaron evaluaciones\
+      \ anuales, que terminaban en un informe anual que servía para que la Universidad\
+      \ pueda mejorar aquellos aspectos que la CONEAU informaba. En julio del 2007\
+      \ culminó el proceso de Evaluación Externa de nuestra institución.\nLa Evaluación\
+      \ Externa abarcó todos los aspectos= aspectos Académicos, de gestión, investigación,\
+      \ vinculación, infraestructura. Se pueden consultar las carreras autorizadas\
+      \ de la Universidad Gastón Dachary o de cualquier otra universidad del país\
+      \ en el sitio web del Ministerio de Educación www.me.gov.ar)"
   utter_respuesta_plazos_inscripcion:
-  - text: La Universidad Gastón Dachary abre las inscripciones a partir de septiembre y hasta marzo en todas sus carreras. Además, la carrera de Contador Nacional Público tiene un período excepcional de inscripción en junio, cuyo cursillo se realiza en julio y el inicio de clases en agosto.
+  - text: La Universidad Gastón Dachary abre las inscripciones a partir de septiembre
+      y hasta marzo en todas sus carreras. Además, la carrera de Contador Nacional
+      Público tiene un período excepcional de inscripción en junio, cuyo cursillo
+      se realiza en julio y el inicio de clases en agosto.
   utter_respuesta_requisito_inscripcion:
-  - text: Para poder inscribirte debes presentar el Documento Nacional del Identidad (DNI) actualizado y las fotocopias del mismo, fotocopia autenticada de la partida de nacimiento, título de estudios secundarios y fotocopia del mismo o constancia de título en trámite. También debes presentar certificado de buena salud y grupo sanguíneo, cuatro fotos 4x4 y una carpeta colgante. Para inscribirte al curso anticipado de ingreso debes presentar una constancia de estar cursando el último año del Polimodal o Nivel Medio.
+  - text: Para poder inscribirte debes presentar el Documento Nacional del Identidad
+      (DNI) actualizado y las fotocopias del mismo, fotocopia autenticada de la partida
+      de nacimiento, título de estudios secundarios y fotocopia del mismo o constancia
+      de título en trámite. También debes presentar certificado de buena salud y grupo
+      sanguíneo, cuatro fotos 4x4 y una carpeta colgante. Para inscribirte al curso
+      anticipado de ingreso debes presentar una constancia de estar cursando el último
+      año del Polimodal o Nivel Medio.
   utter_saludo:
   - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
 
+  utter_agradecimiento:
+    - text: De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
+
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 0
