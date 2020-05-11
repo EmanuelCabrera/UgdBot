@@ -22,3 +22,23 @@
 ## interactive_story_1
 * plazos_inscripcion{"plazos": "plazos"}
     - utter_respuesta_plazos_inscripcion
+
+## interactive_story_1
+* evaluacion_coneau
+    - utter_respuesta_evaluacion_coneau
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+* certificadas{"certificadas": "¿Tienen certificación por la CONEAU?"}
+    - utter_respuesta_evaluacion_coneau
+* despedida
+    - utter_despedida
+
+## agradecimiento
+* agradecimiento
+    - utter_agradecimiento
+
+## despedida
+* despedida
+    - utter_despedida

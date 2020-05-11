@@ -4,11 +4,19 @@
 - eso suena bien
 - correcto
 
+## intent:agradecimiento
+- Gracias
+- Muchas Gracias
+- gracias
+- muchas gracias
+
+
 ## intent:despedida
 - Chau
 - Nos vemos
 - Nos vemos luego
 - muchas gracias hasta luego
+- gracias, chau
 
 ## intent:negacion
 - no
@@ -25,6 +33,7 @@
 - Buenas tardes
 - Buenas noches
 - hola
+- buenas tardes
 
 ## intent:requisitos_inscripcion
 - buenos días cuales son los [requisitos](documentacion) para inscribirme?
@@ -81,5 +90,34 @@
 - ¿[Existen fechas preestablecidas](plazos) de inscripción?
 - [Puedo inscribirme en cualquier momento del año?](plazos)
 - [Hay un plazo](plazos) para la inscripción?
-- [¿Cuando me puedo inscribir?](plazos)
-- [¿Cuándo son las inscripciones?](plazos)
+
+## intent:evaluacion_coneau
+- [¿La UGD y las carreras que ofrece fueron evaluadas por la CONEAU?](certificadas)
+- las [carreras que ofrece la universidad están certificadas](certificadas) por la entidad coneau?
+- [La Coneau evaluo la Institucion?](certificadas)
+- La [oferta academia](certificadas) de la UGD fue evaluada por la CONEAU?
+- [La carrera que elegi esta evaluada por la coneau?](certificadas)
+- [La UGD y sus carreras que ofrecen fueron evaluados por la CONEAU](certificadas)
+- [Las carreras fueron aprobadas por la coneau?](certificadas)
+- [La UGD y las carreras que ofrece tienen el aval](certificadas) de la CONEAU?
+- [La universidad está avalada por la CONEAU?](certificadas)
+- [¿La IGD posee aval de la CONEAU?](certificadas)
+- ¿[Las carreras de la UGD son aprobadas](certificadas) por la CONEAU?
+- [¿Tienen validez académica la universidad y sus carreras?](certificadas)
+- [¿Las carreras que ofrece la facultad tienen validez nacional?](certificadas)
+- Buenos días, quisiera saber si [¿las carreras actuales son evaluadas por la CONEAU?](certificadas)
+- [La universidad, al igual que las carreras, son evaluadas por la CONEAU ?](certificadas)
+- [¿La oferta académica de la UGD fue evaluada por la CONEAU?](certificadas)
+- Tengo una consulta, [¿la UGD fue evaluada por la CONEAU?](certificadas)
+- [Quiénes evaluan la carrera?](certificadas)
+- [Su aprobación ¿tiene reconocimiento nacional? o solo provincial?](certificadas)
+- [¿Tienen certificación por la CONEAU?](certificadas)
+- [¿ Las carreras que ofrece la Universidad fueron evaluadas por la CONEAU?](certificadas)
+- Que [avales](certificadas) tiene la carrera
+- Las carreras que ofrece la UGD [¿tienen el aval de la CONEAU?](certificadas)
+- [Las carreras de la ugd están avaladas por la CONEAU?](certificadas)
+- [la coneau aprueba las carreras del dachary?](certificadas)
+- [¿Porque organismo está avalada la universidad y propuestas académicas?](certificadas)
+- [Las carreras ofrecidas por la UGD cuentan con el aval o la aprobación de la CONEAU](certificadas)
+- [Las carreras están acreditadas por la CONEAU o en proceso de acreditación?](certificadas)
+- ¿Tienen certificación por la CONEAU?
