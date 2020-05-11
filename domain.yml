@@ -28,18 +28,9 @@ responses:
   utter_feliz:
   - text: Great carry on!
   utter_respuesta_plazos_inscripcion:
-  - text: La Universidad Gastón Dachary abre las inscripciones a partir de septiembre
-      y hasta marzo en todas sus carreras. Además, la carrera de Contador Nacional
-      Público tiene un período excepcional de inscripción en junio, cuyo cursillo
-      se realiza en julio y el inicio de clases en agosto.
+  - text: La Universidad Gastón Dachary abre las inscripciones a partir de septiembre y hasta marzo en todas sus carreras. Además, la carrera de Contador Nacional Público tiene un período excepcional de inscripción en junio, cuyo cursillo se realiza en julio y el inicio de clases en agosto.
   utter_respuesta_requisito_inscripcion:
-  - text: Para poder inscribirte debes presentar el Documento Nacional del Identidad
-      (DNI) actualizado y las fotocopias del mismo, fotocopia autenticada de la partida
-      de nacimiento, título de estudios secundarios y fotocopia del mismo o constancia
-      de título en trámite. También debes presentar certificado de buena salud y grupo
-      sanguíneo, cuatro fotos 4x4 y una carpeta colgante. Para inscribirte al curso
-      anticipado de ingreso debes presentar una constancia de estar cursando el último
-      año del Polimodal o Nivel Medio.
+  - text: Para poder inscribirte debes presentar el Documento Nacional del Identidad (DNI) actualizado y las fotocopias del mismo, fotocopia autenticada de la partida de nacimiento, título de estudios secundarios y fotocopia del mismo o constancia de título en trámite. También debes presentar certificado de buena salud y grupo sanguíneo, cuatro fotos 4x4 y una carpeta colgante. Para inscribirte al curso anticipado de ingreso debes presentar una constancia de estar cursando el último año del Polimodal o Nivel Medio.
   utter_saludo:
   - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
 
