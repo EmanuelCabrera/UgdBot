@@ -42,3 +42,16 @@
 ## despedida
 * despedida
     - utter_despedida
+## interactive_story_1
+* curso_ingreso
+    - utter_respuesta_curso_ingreso
+
+## interactive_story_1
+* saludo
+    - utter_saludo
+* curso_ingreso
+    - utter_respuesta_curso_ingreso
+* agradecimiento
+    - utter_agradecimiento
+* despedida
+    - utter_despedida
