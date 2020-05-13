@@ -154,3 +154,33 @@
 - [Hay que realizar un cursillo para el ingreso?](curso)
 - hay curso de ingreso?
 - para ingresar hay un curso de ingreso o nivelatorio?
+
+## intent:informacion_modalidad_inscripcion
+- [¿Tengo que inscribirme personalmente o puedo hacerlo a distancia?](modalidad_inscripcion)
+- [Puedo inscribirme a distancia?](modalidad_inscripcion)
+- Cuáles son las [modalidades de inscripción](modalidad_inscripcion)?
+- [si vivo lejos puedo inscribirme desde aca?](modalidad_inscripcion)
+- [La inscripción es personal o virtual](modalidad_inscripcion)
+- [Puedo inscribirme vía online?](modalidad_inscripcion)
+- [Cómo me puedo inscribir?](modalidad_inscripcion)
+- [La inscripción se puede realizar de forma virtual?](modalidad_inscripcion)
+- [¿Para la inscripción debo acercarme a la institución o lo puedo hacer on line?](modalidad_inscripcion)
+- [¿Se puede inscribir virtualmente?](modalidad_inscripcion)
+- [¿Tengo que presentarme de forma personal para inscribirme?](modalidad_inscripcion)
+- ¿[Qué canales](modalidad_inscripcion) existen disponibles para poder inscribirme?
+- Hola, quisiera saber si [¿es necesario inscribirme personalmente o lo puedo hacer de manera virtual?](modalidad_inscripcion)
+- [La inscripción es online o presencial?](modalidad_inscripcion)
+- [¿Las inscripciones son virtuales?](modalidad_inscripcion)
+- [¿Puedo inscribirme online?](modalidad_inscripcion)
+- [Tengonque ir personalmente a incribirme o puede ir alguien en representación](modalidad_inscripcion)
+- [Modalidad de inscripción?](modalidad_inscripcion)
+- [¿Puedo realizar la inscripción. A travé de la página?](modalidad_inscripcion)
+- [Puedo inscribirme de manera virtual y abonar de la misma forma](modalidad_inscripcion)
+- [¿Existe algún formulario de inscripción online?](modalidad_inscripcion)
+- [¿la inscripciones online?](modalidad_inscripcion)
+- [¿Las inscripciones son presenciales o virtuales?](modalidad_inscripcion)
+- [Si vivo en el interior, Las inscripciones a las carreras se realizan personalmente?](modalidad_inscripcion)
+- [debo inscribirme en el edificio de la facultad o lo puedo hacer desde casa?](modalidad_inscripcion)
+- [¿El proceso de inscripción es presencial o es posible realizarlo vía online?](modalidad_inscripcion)
+- [Puedo realizar inscripción a distancia o solamente de manera presencial?](modalidad_inscripcion)
+- [Puede inscribirme de manera online o requieren necesariamente que me presente en persona a realizarlo?](modalidad_inscripcion)
