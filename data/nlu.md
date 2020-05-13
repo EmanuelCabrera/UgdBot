@@ -10,13 +10,13 @@
 - gracias
 - muchas gracias
 
-
 ## intent:despedida
 - Chau
 - Nos vemos
 - Nos vemos luego
 - muchas gracias hasta luego
 - gracias, chau
+- chau
 
 ## intent:negacion
 - no
@@ -121,3 +121,36 @@
 - [Las carreras ofrecidas por la UGD cuentan con el aval o la aprobación de la CONEAU](certificadas)
 - [Las carreras están acreditadas por la CONEAU o en proceso de acreditación?](certificadas)
 - ¿Tienen certificación por la CONEAU?
+
+## intent:curso_ingreso
+- [¿Hay ingreso sin limitaciones o hay que hacer algún curso?](curso)
+- [Hay curso de ingreso?](curso)
+- Existe [cursillo de Ingreso](curso)?
+- hace falta rendir [curso de ingreso](curso)?
+- Para el ingreso hay algún [cursillo](curso)?
+- [Hay cursillo de ingreso?](curso)
+- Tengo que hcer un [cursillo de ingreso/ nivelatorio](curso)?
+- [Hay que rendir ingreso?](curso)
+- [¿Se rinde algún cursillo ?](curso)
+- ¿Hay [cursillo de ingreso](curso) o examen?
+- [¿Hay un curso de ingreso?](curso)
+- [¿El ingreso es eliminatorio o nivelatorio?](curso)
+- Hola, buenas tardes [¿es necesario la realización de algún cursillo?](curso) ¿tiene cupos?
+- [Para el ingreso se debe realizar un cursillo con examen eliminatorio o simplemente es nivelatorio?](curso)
+- [¿El ingreso a las carreras es con un exámen nivelatorio o eliminatorio?](curso)
+- [¿El cursillo de  ingreso es eliminatorio?](curso)
+- [Hay curso de nivelación](curso) de ingreso?
+- Los cursos: ¿son eliminatorios? ¿Cuenta con charlas previas u otra particularidad?
+- [¿Hay un cupo de inscripciones  o curso de ingreso?](curso)
+- [Elcursado de ingreso es nivelatorio?](curso)
+- [¿Hay cursillo de ingreso?](curso)
+- Hay que hacer un [cursillo de ingreso](curso)
+- [¿La universidas exige como condición de ingreso la realización de talleres de nivelación por carrera?](curso)
+- Para cursar las carreras en la U.G.D.[¿existe examen de ingreso eliminatorio?](curso)
+- [Para Inscribirme a una carrera hay cursillo de ingreso?](curso)
+- hola, [tengo que hacer un cursillo de ingreso?](curso)
+- [¿Existe curso de ingreso eliminatorio?](curso)
+- [Para ingresar se solicita realizar algún curso de ingreso o nivelación?](curso)
+- [Hay que realizar un cursillo para el ingreso?](curso)
+- hay curso de ingreso?
+- para ingresar hay un curso de ingreso o nivelatorio?

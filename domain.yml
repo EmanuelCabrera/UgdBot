@@ -1,28 +1,33 @@
 actions:
+- utter_agradecimiento
 - utter_animar
 - utter_ayuda
 - utter_despedida
 - utter_feliz
+- utter_respuesta_curso_ingreso
 - utter_respuesta_evaluacion_coneau
 - utter_respuesta_plazos_inscripcion
 - utter_respuesta_requisito_inscripcion
-- utter_agradecimiento
 - utter_saludo
 entities:
 - certificadas
+- curso
 - documentacion
 - plazos
 intents:
 - despedida
-- certificadas
+- agradecimiento
 - saludo
+- curso_ingreso
+- certificadas
 - evaluacion_coneau
 - plazos_inscripcion
 - requisitos_inscripcion
-- documentacion_inscripcion
 - afirmacion
 - negacion
 responses:
+  utter_agradecimiento:
+  - text: De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
   utter_animar:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -32,6 +37,16 @@ responses:
   - text: Espero haberte ayudado hasta la proxima.
   utter_feliz:
   - text: Great carry on!
+  utter_respuesta_curso_ingreso:
+  - text: Existe un curso de ingreso nivelatorio que tiene por finalidad equiparar
+      las condiciones académicas de los alumnos ingresantes atendiendo a las distintas
+      orientaciones que tiene el nivel medio en la actualidad. Este curso se dicta
+      en tres instancias, una es el cursillo anticipado que se hace de septiembre
+      a diciembre únicamente los días sábados, para el que quiera anticiparlo. Además,
+      está el cursillo habitual en los meses de febrero y marzo de 4 semanas de duración.
+      Y, en algunas carreras, se ha habilitado el comienzo del cursado en agosto para
+      lo que se ha instrumentado un curso de ingreso en julio, en cualquier caso se
+      deben aprobar los exámenes correspondientes.
   utter_respuesta_evaluacion_coneau:
   - text: "Sí, y después de una década de evaluación de la CONEAU, en febrero de 2009\
       \ logramos la autorización definitiva y pasamos de ser Instituto Universitario\
@@ -67,10 +82,6 @@ responses:
       año del Polimodal o Nivel Medio.
   utter_saludo:
   - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
-
-  utter_agradecimiento:
-    - text: De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
-
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 0
