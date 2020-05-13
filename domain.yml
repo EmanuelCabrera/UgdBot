@@ -10,12 +10,14 @@ actions:
 - utter_respuesta_requisito_inscripcion
 - utter_saludo
 - utter_respuesta_informacion_modalidad_inscripcion
+- utter_respuesta_visitas_consultas
 entities:
 - certificadas
 - curso
 - documentacion
 - plazos
 - modalidad_inscripcion
+- visitas
 intents:
 - despedida
 - agradecimiento
@@ -28,6 +30,7 @@ intents:
 - afirmacion
 - negacion
 - informacion_modalidad_inscripcion
+- visitas_consultas
 responses:
   utter_agradecimiento:
   - text: De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
@@ -87,6 +90,8 @@ responses:
   - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
   utter_respuesta_informacion_modalidad_inscripcion:
   - text: La inscripción es un trámite personal, y en el caso de menores de 21 años, debe estar presente el padre para suscribir la ficha de inscripción.
+  utter_respuesta_visitas_consultas:
+  - text: 'Las puertas de la UGD están abiertas para todo aquel que desee conocerla. Se puede visitar la universidad y las autoridades están abiertas a informar sobre ella y atender cualquier consulta. Es conveniente solicitar un horario previamente para tener la seguridad que la persona que uno quiere contactar esté presente en ese momento.'
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 0

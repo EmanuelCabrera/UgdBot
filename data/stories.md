@@ -70,3 +70,17 @@
 ## informacion modalidad inscripcion
 * informacion_modalidad_inscripcion
     - utter_respuesta_informacion_modalidad_inscripcion
+
+## visitas + consultas happy path
+* saludo
+    - utter_saludo
+* visitas_consultas
+    - utter_respuesta_visitas_consultas
+* agradecimiento
+    - utter_agradecimiento
+* despedida
+    - utter_despedida
+
+## visitas + consultas
+* visitas_consultas
+    - utter_respuesta_visitas_consultas
