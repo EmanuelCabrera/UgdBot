@@ -30,7 +30,7 @@
 ## interactive_story_1
 * saludo
     - utter_saludo
-* certificadas{"certificadas": "¿Tienen certificación por la CONEAU?"}
+* evaluacion_coneau
     - utter_respuesta_evaluacion_coneau
 * despedida
     - utter_despedida
@@ -42,6 +42,7 @@
 ## despedida
 * despedida
     - utter_despedida
+    
 ## interactive_story_1
 * curso_ingreso
     - utter_respuesta_curso_ingreso
@@ -55,3 +56,17 @@
     - utter_agradecimiento
 * despedida
     - utter_despedida
+
+## informacion modalidad inscripcion happy path
+* saludo
+    - utter_saludo
+* informacion_modalidad_inscripcion
+    - utter_respuesta_informacion_modalidad_inscripcion
+* agradecimiento
+    - utter_agradecimiento
+* despedida
+    - utter_despedida
+
+## informacion modalidad inscripcion
+* informacion_modalidad_inscripcion
+    - utter_respuesta_informacion_modalidad_inscripcion

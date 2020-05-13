@@ -9,11 +9,13 @@ actions:
 - utter_respuesta_plazos_inscripcion
 - utter_respuesta_requisito_inscripcion
 - utter_saludo
+- utter_respuesta_informacion_modalidad_inscripcion
 entities:
 - certificadas
 - curso
 - documentacion
 - plazos
+- modalidad_inscripcion
 intents:
 - despedida
 - agradecimiento
@@ -25,6 +27,7 @@ intents:
 - requisitos_inscripcion
 - afirmacion
 - negacion
+- informacion_modalidad_inscripcion
 responses:
   utter_agradecimiento:
   - text: De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
@@ -82,6 +85,8 @@ responses:
       año del Polimodal o Nivel Medio.
   utter_saludo:
   - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
+  utter_respuesta_informacion_modalidad_inscripcion:
+  - text: La inscripción es un trámite personal, y en el caso de menores de 21 años, debe estar presente el padre para suscribir la ficha de inscripción.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 0
