@@ -135,7 +135,7 @@
 - ¿Hay [cursillo de ingreso](curso) o examen?
 - [¿Hay un curso de ingreso?](curso)
 - [¿El ingreso es eliminatorio o nivelatorio?](curso)
-- Hola, buenas tardes [¿es necesario la realización de algún cursillo?](curso) ¿tiene cupos?
+- Hola, buenas tardes [¿es necesario la realización de algún cursillo?](curso)
 - [Para el ingreso se debe realizar un cursillo con examen eliminatorio o simplemente es nivelatorio?](curso)
 - [¿El ingreso a las carreras es con un exámen nivelatorio o eliminatorio?](curso)
 - [¿El cursillo de  ingreso es eliminatorio?](curso)
@@ -241,3 +241,29 @@
 - ¿Que tipo se beneficios brinda la universidad a los estudiantes?
 - Con que beneficios cuantan los estudiantes a la hora de inscribirse?
 - [La universidad otorga algún tipo de beca o bonificacion para hermanos en las cuotas?](becas_hermanos)
+
+## intent:informar_horarios_trabajadores
+- [Existen horarios diferenciados para trabajadores?](horario_trabajadores)
+- [Existe algúna resolución que ampare a estudiantes que trabajan?](horario_trabajadores)
+- [existe alguna flexibilidad para los que trabajamos aparte de estudiar?](horario_trabajadores)
+- [Hay flexibilidad de horarios en la cursada si trabajo.](horario_trabajadores)
+- [Existe consideración por las personas que trabajan?](horario_trabajadores)
+- Si trabajo y estudio, [puedo tener horarios flexibles?](horario_trabajadores)
+- [Hay flexibilidad horaria para las personas que trabajan y estudian?](horario_trabajadores)
+- [¿Existe contemplación con el tema de los horarios, en el caso de trabajo?](horario_trabajadores)
+- [¿Cual es la flexibilidad de horarios si tengo un trabajo?](horario_trabajadores)
+- [¿Flexibilizan las asistencias debido a que trabajo?](horario_trabajadores)
+- Hola, le escribo para consultar. [En el caso de que trabaje y estudie en la universidad ¿debo presentar certificado? ¿justifica mis faltas a clases?](horario_trabajadores)
+- En relación a los horarios, [como trabajo y estudio, existe alguna posibilidad respecto a los horarios y las asistencias?](horario_trabajadores)
+- ¿La UGD contempla las diferentes condiciones de los estudiantes? Por ejemplo, [si trabajo ¿cuento con un respaldo para que eso no sea un impedimento para estudiar? En el caso de que cuente con respaldos ¿Cuáles son?](horario_trabajadores)
+- [Hay flexibilidad en los horarios?](horario_trabajadores)
+- [Cuenta con flexibilidad en horarios o cursados? ya q actualmente trabajo media jornada.](horario_trabajadores)
+- [Tengo una alternativa de cursado e-learning y otros días presencial?](horario_trabajadores)
+- [Si trabajo y estudio ¿ Cuáles son mis posibilidades con respecto a los horarios de cursada?](horario_trabajadores)
+- [¿Hay libertad horaria?](horario_trabajadores)
+- [Si mis obligaciones laborales se superpusieran al horario de la cursada, ¿podría acceder a consideraciones excepcionales que contemplen esa situación para asistir a las clases? ¿Puedo elegir los horarios de cursado?](horario_trabajadores)
+- [Existe flexibilidad horaria para el cursado en el caso que trabaje? ](horario_trabajadores)
+- [estudiar en el dachary me permite tener un trabajo aparte?](horario_trabajadores)
+- [En cuanto a mi situación laboral ¿Que ayuda me brinda la universidad, con respecto a las faltas y horarios?](horario_trabajadores)
+- [Las carreras poseen flexibilidad en los horarios? ](horario_trabajadores)
+- Hola,quiero consultarle [respecto a los horarios y asistencias porque trabajo y estudio? Tienen algún tipo de contemplación en este caso?](horario_trabajadores)

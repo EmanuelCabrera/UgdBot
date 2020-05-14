@@ -102,3 +102,17 @@
 * informar_becas_hermanos
     - utter_respuesta_informar_becas_hermanos
 
+<!-- HORARIOS PARA ALUMNOS QUE TRABAJAN -->
+## informar horarios trabajadores inscripcion happy path
+* saludo
+    - utter_saludo
+* informar_horarios_trabajadores
+    - utter_respuesta_informar_horarios_trabajadores
+* agradecimiento
+    - utter_agradecimiento
+* despedida
+    - utter_despedida
+
+## informar horarios trabajadores
+* informar_horarios_trabajadores
+    - utter_respuesta_informar_horarios_trabajadores
