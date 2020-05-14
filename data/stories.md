@@ -57,20 +57,22 @@
 * despedida
     - utter_despedida
 
-## informacion modalidad inscripcion happy path
+<!-- MODALIDAD INSCRIPCION -->
+## informar modalidad inscripcion happy path
 * saludo
     - utter_saludo
-* informacion_modalidad_inscripcion
-    - utter_respuesta_informacion_modalidad_inscripcion
+* informar_modalidad_inscripcion
+    - utter_respuesta_informar_modalidad_inscripcion
 * agradecimiento
     - utter_agradecimiento
 * despedida
     - utter_despedida
 
-## informacion modalidad inscripcion
-* informacion_modalidad_inscripcion
-    - utter_respuesta_informacion_modalidad_inscripcion
+## informar modalidad inscripcion
+* informar_modalidad_inscripcion
+    - utter_respuesta_informar_modalidad_inscripcion
 
+<!-- VISITAS A LA UNIVERSIDAD -->
 ## visitas + consultas happy path
 * saludo
     - utter_saludo
@@ -84,3 +86,19 @@
 ## visitas + consultas
 * visitas_consultas
     - utter_respuesta_visitas_consultas
+
+<!-- BECAS PARA HERMANOS -->
+## informar becas hermanos inscripcion happy path
+* saludo
+    - utter_saludo
+* informar_becas_hermanos
+    - utter_respuesta_informar_becas_hermanos
+* agradecimiento
+    - utter_agradecimiento
+* despedida
+    - utter_despedida
+
+## informar becas hermanos
+* informar_becas_hermanos
+    - utter_respuesta_informar_becas_hermanos
+
