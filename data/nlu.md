@@ -155,7 +155,7 @@
 - hay curso de ingreso?
 - para ingresar hay un curso de ingreso o nivelatorio?
 
-## intent:informacion_modalidad_inscripcion
+## intent:informar_modalidad_inscripcion
 - [¿Tengo que inscribirme personalmente o puedo hacerlo a distancia?](modalidad_inscripcion)
 - [Puedo inscribirme a distancia?](modalidad_inscripcion)
 - Cuáles son las [modalidades de inscripción](modalidad_inscripcion)?
@@ -213,3 +213,31 @@
 - [¿Es posible realiza algún tipo de visita previa para conocer la universidad? ¿Hay posibilidades de tener contacto con profesores o rectores?](visitas)
 - [Se puede realizar una visita guiada en la universidad a cargo de algún docente o el rector?](visitas)
 - [Es posible conocer la Universidad y si hay oportunidad, hablar con algún profesor o con el Rector de la misma?](visitas)
+
+## intent:informar_becas_hermanos
+- Cuáles son las becas o beneficios existentes para estudiantes y [familiares de estudiantes?](becas_hermanos)
+- [si tengo un hermano que tambien quiere estudiar ahi, hay alguna beca para los dos?](becas_hermanos)
+- Se pueden adquirir becas, [algun descuento por grupo fliar estudiantil](becas_hermanos)
+- [Tiene algún sistema de becas?](becas_hermanos)
+- Necesito una beca para estudiar Cómo accedo a ella? [Si estudiamos con mis hermanos en la UGD, tenemos algún beneficio?](becas_hermanos)
+- La universidad ofrece becas? [Tiene descuento por grupo familiar?](becas_hermanos)
+- ¿Existen becas? [¿Descuentos por hermanos?](becas_hermanos)
+- ¿Que becas hay? [¿Hay descuento para hermanos?](becas_hermanos)
+- ¿Hay posibilidad de reducir el costo de las cuotas?
+- ¿Tienen becas disponibles?
+- Hola, le escribo para consultar lo siguiente: ¿que becas hay? [¿hay alguna para hermanos?](becas_hermanos)
+- [Existe la posibilidad de obtener una beca o bonificacion para hermanos?](becas_hermanos)
+- ¿La UGD otorga becas? ¿Cuáles son los requisitos para acceder a una beca? [¿Existe algún tipo de bonificación para hermanos?](becas_hermanos)
+- Tengo una consulta que hacer, ¿hay becas? [¿hay bonificación para hermanos?](becas_hermanos)
+- [La Institución tiene alguna oferta de beneficios para los alumnos?](becas_hermanos)
+- [Cuento con un hermano estudiando en la misma ¿ ofrecen descuentos? ¿Algun beneficio por estudiar aqui?](becas_hermanos)
+- ¿Tienen becas? [Tengo un hermano que cursa en la universidad ¿Hay algún descuento si me inscribo?](becas_hermanos)
+- Las becas son nivelatorias?
+- ¿Existen becas? [¿Existen bonificación para hermanos?](becas_hermanos)
+- ¿Hay algún descuento?
+- Si mi situación familiar, económica o académica favorecieran para postularme a alguna beca ¿qué trámite debería realizar? [Si tuviese un/a hermano/a cursando en la Universidad, ¿podría acceder a alguna - bonificación en las cuotas?](becas_hermanos)
+- Existen otorgamientos de becas? Que tipo? 
+- hola, quisiera saber si tienen becas para las carreras?
+- ¿Que tipo se beneficios brinda la universidad a los estudiantes?
+- Con que beneficios cuantan los estudiantes a la hora de inscribirse?
+- [La universidad otorga algún tipo de beca o bonificacion para hermanos en las cuotas?](becas_hermanos)
