@@ -12,6 +12,7 @@ actions:
 - utter_respuesta_informar_modalidad_inscripcion
 - utter_respuesta_visitas_consultas
 - utter_respuesta_informar_becas_hermanos
+- utter_respuesta_informar_horarios_trabajadores
 
 entities:
 - certificadas
@@ -21,6 +22,7 @@ entities:
 - modalidad_inscripcion
 - visitas
 - becas_hermanos
+- horario_trabajadores
 
 intents:
 - despedida
@@ -36,6 +38,7 @@ intents:
 - informar_modalidad_inscripcion
 - visitas_consultas
 - informar_becas_hermanos
+- informar_horarios_trabajadores
 
 responses:
   utter_agradecimiento:
@@ -100,7 +103,8 @@ responses:
   - text: 'Las puertas de la UGD están abiertas para todo aquel que desee conocerla. Se puede visitar la universidad y las autoridades están abiertas a informar sobre ella y atender cualquier consulta. Es conveniente solicitar un horario previamente para tener la seguridad que la persona que uno quiere contactar esté presente en ese momento.'
   utter_respuesta_informar_becas_hermanos:
   - text: 'La Universidad cuenta con un sistema de becas al que el alumno puede acceder cumpliendo con una serie de requisitos. Existe una beca por hermanos, que consiste en una bonificación del 15% de la cuota a uno de los hermanos.'
-
+  utter_respuesta_informar_horarios_trabajadores:
+    - text: 'Los horarios de la UGD permiten al alumno trabajar. Los planes de estudio contemplan espacios de pasantías o prácticas profesionales. Generalmente sirven de primera experiencia y frecuentemente termina en una relación laboral. Hoy existe mucha más demanda que alumnos dispuestos a trabajar, todos los alumnos que desean trabajar lo están haciendo. Con este fin, se están desarrollando materias de tercero y cuarto año con carácter semi-presencial. El objetivo es que el alumno que empezó a trabajar, tenga menor necesidad de presencialidad y así pueda estar en mejores condiciones de trabajar.'
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 0
