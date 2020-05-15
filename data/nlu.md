@@ -236,7 +236,7 @@
 - ¿Existen becas? [¿Existen bonificación para hermanos?](becas_hermanos)
 - ¿Hay algún descuento?
 - Si mi situación familiar, económica o académica favorecieran para postularme a alguna beca ¿qué trámite debería realizar? [Si tuviese un/a hermano/a cursando en la Universidad, ¿podría acceder a alguna - bonificación en las cuotas?](becas_hermanos)
-- Existen otorgamientos de becas? Que tipo? 
+- Existen otorgamientos de becas? Que tipo?
 - hola, quisiera saber si tienen becas para las carreras?
 - ¿Que tipo se beneficios brinda la universidad a los estudiantes?
 - Con que beneficios cuantan los estudiantes a la hora de inscribirse?
@@ -267,3 +267,36 @@
 - [En cuanto a mi situación laboral ¿Que ayuda me brinda la universidad, con respecto a las faltas y horarios?](horario_trabajadores)
 - [Las carreras poseen flexibilidad en los horarios? ](horario_trabajadores)
 - Hola,quiero consultarle [respecto a los horarios y asistencias porque trabajo y estudio? Tienen algún tipo de contemplación en este caso?](horario_trabajadores)
+
+## intent:informar_equivalencias
+- ¿Me reconocen las materias ya aprobadas en otra universidad?
+- ¿Reconocen las materias ya aprobadas en otros lugares?
+- Cómo podría hacer para que me reconozcan las materias aprobadas de otra facultad?
+- que equivalencias me toman de mi universidad
+- Me reconocen las materias que ya aprobé en la otra universidad?
+- Buenas tardes, quisiera saber si la facultad cuenta con algún convenio con otras facultades, con el fin de saber si realizo el cambio de facultad, reconoce ciertas materias aprobadas
+- Reconocen materias aprobadas en una universidad pública como la UNAM?
+- Si ya aprobé algunas materias me las tienen en cuenta?
+- Hola buenos días, estoy en segundo año y aprobé todas las materias de primero de abogacía y aprobé las materias del primer cuatrimestre del segundo, no puedo seguir pagando la universidad por cuestiones familiares, si me cambio de facultad, me reconocen las materias en otra universidad?
+- Hola quería saber si me reconocen las materias del cursado en el Dachary de la carrera ING de sistemas
+- ¿Me toman las materias de otra carrera?
+- Siempre y cuando sea "Universidad" y la cátedra correspondiente considere que se abordaron todos los temas.
+- Otra universidad me reconoce las materias ya aprobabas?
+- ¿Puedo validar mis materias aprobadas de otra universidad y así continuar la cursada?
+- me reconocen las materias aprobadas en otra universidad?
+
+## intent:informar_intercambio_de_estudio
+- ¿Puedo hacer intercambio de estudios? ¿Dónde? ¿Con qué valor?
+- ¿Puedo realizar intercambio de estudios? ¿Dónde? ¿Cuanto costaría?
+- Hola , podría realizar un intercambio de estudios y de ser así que costo tendría ?
+- estan permitidos los intercambios con otras universidades?
+- Buenas tardes, será que me pueden decir como hago para hacer un intercambio de estudios? Cómo lo haría y cuanto saldría?
+- Hola, quisiera cambiar de carrera, debería abonar nuevamente la inscripción? Si es así, de cuanto es el valor de la misma?
+- Es posible hacer una experiencia de intercambio de estudio en Australia?
+- Se pueden hacer intercambios? Me pasas la lista de lugares? Precio? Gracias
+- Si estoy estudiando en la universidad, puedo ir de intercambio a otra? Si es posible a dónde puedo ir? Y cuál es el costo?
+- Buenas quería saber si tienen disponible algún programa de intercambio. De ser asi, a qué costó. Gracias
+- ¿Puedo hacer intercambios académicos en otro centro de estudios? Donde y precios
+- Hola, puedo un intercambio de estudios? Donde? que valor tiene?
+- ¿Existe el intercambio universitario? ¿Tiene algún costo o requisito?
+- puedo hacer intercambio de estudio?

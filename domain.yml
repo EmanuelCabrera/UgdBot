@@ -5,26 +5,28 @@ actions:
 - utter_despedida
 - utter_feliz
 - utter_respuesta_curso_ingreso
+- utter_respuesta_equivalencias
 - utter_respuesta_evaluacion_coneau
-- utter_respuesta_plazos_inscripcion
-- utter_respuesta_requisito_inscripcion
-- utter_saludo
-- utter_respuesta_informar_modalidad_inscripcion
-- utter_respuesta_visitas_consultas
 - utter_respuesta_informar_becas_hermanos
 - utter_respuesta_informar_horarios_trabajadores
-
+- utter_respuesta_informar_modalidad_inscripcion
+- utter_respuesta_intercambio_de_estudio
+- utter_respuesta_plazos_inscripcion
+- utter_respuesta_requisito_inscripcion
+- utter_respuesta_visitas_consultas
+- utter_saludo
 entities:
+- becas_hermanos
 - certificadas
 - curso
 - documentacion
-- plazos
-- modalidad_inscripcion
-- visitas
-- becas_hermanos
 - horario_trabajadores
-
+- modalidad_inscripcion
+- plazos
+- visitas
 intents:
+- informar_equivalencias
+- informar_intercambio_de_estudio
 - despedida
 - agradecimiento
 - saludo
@@ -39,7 +41,6 @@ intents:
 - visitas_consultas
 - informar_becas_hermanos
 - informar_horarios_trabajadores
-
 responses:
   utter_agradecimiento:
   - text: De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
@@ -62,6 +63,16 @@ responses:
       Y, en algunas carreras, se ha habilitado el comienzo del cursado en agosto para
       lo que se ha instrumentado un curso de ingreso en julio, en cualquier caso se
       deben aprobar los exámenes correspondientes.
+  utter_respuesta_equivalencias:
+  - text: Es una atribución de las Universidades resolver qué estudios acepta de otras
+      Universidades y cuales no. La UGD analiza cada caso en forma particular. Sólo
+      cuando un caso se repite varias veces el procedimiento se repite. De no ser
+      así, cada caso es analizado en forma particular, que se acepte o no depende
+      del plan de estudios, que esté adecuadamente certificada, con los trámites formales,
+      y que tenga la carga horaria, la bibliografía adecuada, los contenidos semejantes
+      a los de la carrera que se dicta aquí. Para reconocer estudios de una carrera
+      de nivel superior no universitario debe existir un convenio específico entre
+      ambas Instituciones.
   utter_respuesta_evaluacion_coneau:
   - text: "Sí, y después de una década de evaluación de la CONEAU, en febrero de 2009\
       \ logramos la autorización definitiva y pasamos de ser Instituto Universitario\
@@ -82,6 +93,30 @@ responses:
       \ vinculación, infraestructura. Se pueden consultar las carreras autorizadas\
       \ de la Universidad Gastón Dachary o de cualquier otra universidad del país\
       \ en el sitio web del Ministerio de Educación www.me.gov.ar)"
+  utter_respuesta_informar_becas_hermanos:
+  - text: La Universidad cuenta con un sistema de becas al que el alumno puede acceder
+      cumpliendo con una serie de requisitos. Existe una beca por hermanos, que consiste
+      en una bonificación del 15% de la cuota a uno de los hermanos.
+  utter_respuesta_informar_horarios_trabajadores:
+  - text: Los horarios de la UGD permiten al alumno trabajar. Los planes de estudio
+      contemplan espacios de pasantías o prácticas profesionales. Generalmente sirven
+      de primera experiencia y frecuentemente termina en una relación laboral. Hoy
+      existe mucha más demanda que alumnos dispuestos a trabajar, todos los alumnos
+      que desean trabajar lo están haciendo. Con este fin, se están desarrollando
+      materias de tercero y cuarto año con carácter semi-presencial. El objetivo es
+      que el alumno que empezó a trabajar, tenga menor necesidad de presencialidad
+      y así pueda estar en mejores condiciones de trabajar.
+  utter_respuesta_informar_modalidad_inscripcion:
+  - text: La inscripción es un trámite personal, y en el caso de menores de 21 años,
+      debe estar presente el padre para suscribir la ficha de inscripción.
+  utter_respuesta_intercambio_de_estudio:
+  - text: 'Tenemos convenios de intercambio con la Universidad de Vigo y la Universidad
+      de Guadalajara; y estamos firmando convenio con universidades de Brasil: UNIJUI
+      y FEMA. Los convenios permiten que el alumno de la UGD puedan cursar algunas
+      materias durante un período determinado, o bien realizar algún trabajo de investigación
+      en la Universidad extranjera. Estas actividades tienen el objetivo de cumplimentar
+      la formación del alumno con actividades académicas, de formación y cultura general
+      y fortalecer los lazos entre la comunidad académica de las Instituciones participantes.'
   utter_respuesta_plazos_inscripcion:
   - text: La Universidad Gastón Dachary abre las inscripciones a partir de septiembre
       y hasta marzo en todas sus carreras. Además, la carrera de Contador Nacional
@@ -95,16 +130,14 @@ responses:
       sanguíneo, cuatro fotos 4x4 y una carpeta colgante. Para inscribirte al curso
       anticipado de ingreso debes presentar una constancia de estar cursando el último
       año del Polimodal o Nivel Medio.
+  utter_respuesta_visitas_consultas:
+  - text: Las puertas de la UGD están abiertas para todo aquel que desee conocerla.
+      Se puede visitar la universidad y las autoridades están abiertas a informar
+      sobre ella y atender cualquier consulta. Es conveniente solicitar un horario
+      previamente para tener la seguridad que la persona que uno quiere contactar
+      esté presente en ese momento.
   utter_saludo:
   - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
-  utter_respuesta_informar_modalidad_inscripcion:
-  - text: La inscripción es un trámite personal, y en el caso de menores de 21 años, debe estar presente el padre para suscribir la ficha de inscripción.
-  utter_respuesta_visitas_consultas:
-  - text: 'Las puertas de la UGD están abiertas para todo aquel que desee conocerla. Se puede visitar la universidad y las autoridades están abiertas a informar sobre ella y atender cualquier consulta. Es conveniente solicitar un horario previamente para tener la seguridad que la persona que uno quiere contactar esté presente en ese momento.'
-  utter_respuesta_informar_becas_hermanos:
-  - text: 'La Universidad cuenta con un sistema de becas al que el alumno puede acceder cumpliendo con una serie de requisitos. Existe una beca por hermanos, que consiste en una bonificación del 15% de la cuota a uno de los hermanos.'
-  utter_respuesta_informar_horarios_trabajadores:
-    - text: 'Los horarios de la UGD permiten al alumno trabajar. Los planes de estudio contemplan espacios de pasantías o prácticas profesionales. Generalmente sirven de primera experiencia y frecuentemente termina en una relación laboral. Hoy existe mucha más demanda que alumnos dispuestos a trabajar, todos los alumnos que desean trabajar lo están haciendo. Con este fin, se están desarrollando materias de tercero y cuarto año con carácter semi-presencial. El objetivo es que el alumno que empezó a trabajar, tenga menor necesidad de presencialidad y así pueda estar en mejores condiciones de trabajar.'
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 0
