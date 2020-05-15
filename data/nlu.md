@@ -17,6 +17,7 @@
 - muchas gracias hasta luego
 - gracias, chau
 - chau
+- adios
 
 ## intent:negacion
 - no
@@ -300,3 +301,35 @@
 - Hola, puedo un intercambio de estudios? Donde? que valor tiene?
 - ¿Existe el intercambio universitario? ¿Tiene algún costo o requisito?
 - puedo hacer intercambio de estudio?
+
+## intent:informar_asistencia
+- ¿La asistencia a clases es obligatoria?
+- ¿Es presencial?
+- El cursado es obligatorio?
+- cual es el porcentaje de asistencia obligatoria
+- Es obligatorio asistir a clases?
+- Hola buenas tardes, la asistencia a cada clase es obligatoria o depende de cada profesor?
+- Es obligatorio asistir a clases presenciales?
+- Las materias son presenciales?
+- La cursada de la carrera es presencial? Hay un margen de asistencia obligatoria?
+- Que porcentaje de asistencia tengo que cumplir?
+- ¿La asistencia presencial es obligatoria?
+- Es obligatorio ir a clases?
+- ¿La cursada es presencial o a distancia?
+- es obligatorio asistir a clases?
+
+## intent:informar_examen_recuperatorio
+- ¿Cómo son los exámenes? ¿Existen recuperatorios?
+- ¿Cómo toman los exámenes? ¿Hay recuperatorios?
+- Que modalidad de exámen utilizan ? Existe un recuperatorio por cada uno o solo un global?
+- cual es el plan de estudios
+- Como son los exámenes? Tienen recuperatorios?
+- Cuantos exámenes tenes el cuatrimestre? Cada examen tiene su recuperatorio o existe solo uno para todos los exámenes?
+- Los exámenes son escritos u orales? Se puede rendir libre?
+- En que forma se toman los exámenes? Se pueden recuperar?
+- Cómo es el método de evaluación? Hay trabajos prácticos obligatorios? Parciales y recuperatorios? - Con cuánto se aprueba?
+- Me pueden explicar cómo y cuántos exámenes tengo para cada materia?
+- ¿Cuales son los modelos de parciales y como son?¿Cuentan con recuperatorios?
+- Como es el tema de los examenes?como puedo rendirlos? Tienen recuperatorios?
+- ¿Los exámenes son presenciales ? ¿Cuantos recuperatorios tengo por materia?
+- como son los examenes?

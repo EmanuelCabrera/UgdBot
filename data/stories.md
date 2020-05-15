@@ -123,3 +123,15 @@
 ## interactive_story_1
 * informar_equivalencias
     - utter_respuesta_equivalencias
+
+## interactive_story_1
+* informar_examen_recuperatorio
+    - utter_respuesta_examen_recuperatorio
+
+## interactive_story_1
+* informar_asistencia
+    - utter_respuesta_asistencia
+
+## interactive_story_1
+* despedida
+    - utter_despedida
