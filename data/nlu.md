@@ -333,3 +333,34 @@
 - Como es el tema de los examenes?como puedo rendirlos? Tienen recuperatorios?
 - ¿Los exámenes son presenciales ? ¿Cuantos recuperatorios tengo por materia?
 - como son los examenes?
+
+## intent:informar_ayuda_informatica_ingles
+- ¿Me ayudan en Informática y en Inglés?
+- ¿Tienen clases de apoyo en Informática y en Inglés?
+- Hay ayudas para los alumnos en las cátedras de informática y inglés ?
+- Hay clases de apoyo en inglés e informática?
+- Es necesario tener una buena base en el idioma inglés o la carrera cuenta con esa materia dentro de su programa?
+- Recibiré apoyo en asignaturas con informática o inglés por parte de un profesor?
+- Existen tutorías de informática e ingles?
+- En mi escuela no me enseñaron sobre algunas materias, no tengo una buena base, me proporcionan ayuda en esas materias, por ejemplo informática?
+- Quería saber si tienen algún tipo de profes de apoyo para ciertas materias
+- Necesito ayuda en informática e inglés. 
+- La ayuda siempre está disponible, ya sea por parte del equipo de cátedra o tutores pares. El único requisito es solicitarla.
+- Dan ayuda en informatica y en ingles?
+- ¿Cuento con clases de apoyo en las áreas que tenga complicaciones?
+
+## intent:informar_nivel_profesores
+- ¿Cuál es el nivel académico de los profesores?
+- ¿Qué nivel académico tienen los profesores?
+- Con que validaciones o titulaciones cuentan los profesores ?
+- los profesores son buenos
+- Los profesores son idóneos?
+- Buenas noches, quisiera saber si se puede obtener el historial académico de cada profesor?
+- Que nivel de estudios y experiencia tienen los profesores?
+- Que nivel tienen los profesores? Hay acceso a sus currículums?
+- Los profesores que me van a dar clases son profesores con experiencia? O  son recién recibidos? Hay algún doctor que nos enseñe en las clases?
+- Quería saber si los profesores son ingenieros o qué título tienen. Gracias
+- ¿Que estudios tienen los profesores?
+- El nivel de los profesores es siempre igual o superior a la carrera que se elija cursar.
+- que nivel academico tienen los profesores?
+- ¿Todos los profesores son idóneos en sus áreas?
