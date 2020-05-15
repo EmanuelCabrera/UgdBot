@@ -116,3 +116,22 @@
 ## informar horarios trabajadores
 * informar_horarios_trabajadores
     - utter_respuesta_informar_horarios_trabajadores
+## interactive_story_1
+* informar_intercambio_de_estudio
+    - utter_respuesta_intercambio_de_estudio
+
+## interactive_story_1
+* informar_equivalencias
+    - utter_respuesta_equivalencias
+
+## interactive_story_1
+* informar_examen_recuperatorio
+    - utter_respuesta_examen_recuperatorio
+
+## interactive_story_1
+* informar_asistencia
+    - utter_respuesta_asistencia
+
+## interactive_story_1
+* despedida
+    - utter_despedida
