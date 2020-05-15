@@ -116,18 +116,23 @@
 ## informar horarios trabajadores
 * informar_horarios_trabajadores
     - utter_respuesta_informar_horarios_trabajadores
+
+    <!-- INTERCAMBIO DE ESTUDIO -->
 ## interactive_story_1
 * informar_intercambio_de_estudio
     - utter_respuesta_intercambio_de_estudio
 
+<!-- EQUIVALENCIA -->
 ## interactive_story_1
 * informar_equivalencias
     - utter_respuesta_equivalencias
 
+<!-- EXAMENES Y RECUPERATORIOS -->
 ## interactive_story_1
 * informar_examen_recuperatorio
     - utter_respuesta_examen_recuperatorio
-
+    
+<!-- ASISTENCIA A CLASES -->
 ## interactive_story_1
 * informar_asistencia
     - utter_respuesta_asistencia
@@ -145,3 +150,11 @@
 ## informar ayuda en informatica e ingles happy path
 * informar_nivel_profesores
     - utter_respuesta_informar_nivel_profesores
+    <!-- EQUIPAMIENTO TECNOLOGICO -->
+## interactive_story_1
+* informar_equipamiento_tecnologico
+    - utter_respuesta_informar_equipamiento_tecnologico
+<!-- SERVICIOS DE LA UNIVERSIDAD -->
+## interactive_story_1
+* informar_servicios
+    - utter_respuesta_informar_servicios

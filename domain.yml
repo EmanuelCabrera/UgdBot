@@ -9,16 +9,18 @@ actions:
 - utter_respuesta_equivalencias
 - utter_respuesta_evaluacion_coneau
 - utter_respuesta_examen_recuperatorio
+- utter_respuesta_informar_ayuda_informatica_ingles
 - utter_respuesta_informar_becas_hermanos
+- utter_respuesta_informar_equipamiento_tecnologico
 - utter_respuesta_informar_horarios_trabajadores
 - utter_respuesta_informar_modalidad_inscripcion
+- utter_respuesta_informar_nivel_profesores
+- utter_respuesta_informar_servicios
 - utter_respuesta_intercambio_de_estudio
 - utter_respuesta_plazos_inscripcion
 - utter_respuesta_requisito_inscripcion
 - utter_respuesta_visitas_consultas
 - utter_saludo
-- utter_respuesta_informar_ayuda_informatica_ingles
-- utter_respuesta_informar_nivel_profesores
 entities:
 - becas_hermanos
 - certificadas
@@ -29,6 +31,8 @@ entities:
 - plazos
 - visitas
 intents:
+- informar_servicios
+- informar_equipamiento_tecnologico
 - despedida
 - informar_asistencia
 - informar_examen_recuperatorio
@@ -117,10 +121,29 @@ responses:
       o ambos y aprobarlos es condición para aprobar la materia. Todos los exámenes
       son evaluados con notas entre 0 (cero) y 10 (diez) y la nota mínima para aprobar
       es 4 (cuatro), que generalmente representa el 60% del total del examen.
+  utter_respuesta_informar_ayuda_informatica_ingles:
+  - text: Todas las carreras cuentan en su plan de estudios con materias de Informática
+      e Inglés y al igual que todas las materias, los profesores apoyan a los alumnos
+      con clases de consultas, si los alumnos lo solicitan. Si un alumno acredita
+      fehacientemente conocimientos en estos temas puede solicitar al Departamento
+      correspondiente autorización para rendir examen final directamente sin cursar
+      la materia.
   utter_respuesta_informar_becas_hermanos:
   - text: La Universidad cuenta con un sistema de becas al que el alumno puede acceder
       cumpliendo con una serie de requisitos. Existe una beca por hermanos, que consiste
       en una bonificación del 15% de la cuota a uno de los hermanos.
+  utter_respuesta_informar_equipamiento_tecnologico:
+  - text: ' La UGD cuenta con un equipamiento de tecnología avanzada para posibilitar
+      y facilitar las actividades académicas, como así también contribuir con el desarrollo
+      integral del alumno. Con tal fin, se dispone de 4 Laboratorios Informáticos
+      distribuidos en ambas sedes: Sede Central Posadas y Centro Académico Oberá.
+      El Instituto cuenta también con un Laboratorio de Telecomunicaciones estandarizados
+      por Cisco Systems (con características iguales en cualquier academia del mundo)
+      provisto y certificado por Cisco. La UGD tiene un sistema de gestión de la información
+      académica administrativa ágil, interactivo y personalizado. Por otra parte,
+      mediante las redes que cuentan los laboratorios, los usuarios tienen acceso
+      a todos los servicios brindados por la Institución (autogestión, e-mail, información,
+      etc.). '
   utter_respuesta_informar_horarios_trabajadores:
   - text: Los horarios de la UGD permiten al alumno trabajar. Los planes de estudio
       contemplan espacios de pasantías o prácticas profesionales. Generalmente sirven
@@ -133,6 +156,23 @@ responses:
   utter_respuesta_informar_modalidad_inscripcion:
   - text: La inscripción es un trámite personal, y en el caso de menores de 21 años,
       debe estar presente el padre para suscribir la ficha de inscripción.
+  utter_respuesta_informar_nivel_profesores:
+  - text: La UDG cumple con los requisitos impuestos por el Ministerio de Educación
+      exigidos a los docentes universitarios. Además tiene sus propias exigencias
+      en cuanto a los cargos que ocupa cada docente y la antigüedad y antecedentes
+      que presenta cada uno. Más del 70% de los docentes de nuestra universidad tienen
+      estudios de postgrados.
+  utter_respuesta_informar_servicios:
+  - text: ' El principal servicio que ofrecemos a los alumnos es la atención personalizada
+      en el aula. Cada comisión, cuenta con la cantidad de alumnos adecuada, lo que
+      favorece la atención de consultas y la interrelación alumno docente; lo que
+      facilita el aprendizaje. La Universidad cuenta también con servicios de biblioteca,
+      laboratorios informáticos y deportes. Todos los alumnos tienen acceso directo
+      a directivos de la Institución, quienes pueden atender consultas generales o
+      particulares. Además, funciona la Dirección de Asuntos Estudiantiles donde pueden
+      detectarse y tratarse casos de alumnos con problemas de aprendizaje y/o métodos
+      de estudio. Los alumnos de la UGD tienen también acceso a beneficios exclusivos,
+      entre estos bonificaciones en entradas al cine y cuota de gimnasios. '
   utter_respuesta_intercambio_de_estudio:
   - text: 'Tenemos convenios de intercambio con la Universidad de Vigo y la Universidad
       de Guadalajara; y estamos firmando convenio con universidades de Brasil: UNIJUI
@@ -160,10 +200,6 @@ responses:
       sobre ella y atender cualquier consulta. Es conveniente solicitar un horario
       previamente para tener la seguridad que la persona que uno quiere contactar
       esté presente en ese momento.
-  utter_respuesta_informar_ayuda_informatica_ingles:
-  - text: Todas las carreras cuentan en su plan de estudios con materias de Informática e Inglés y al igual que todas las materias, los profesores apoyan a los alumnos con clases de consultas, si los alumnos lo solicitan. Si un alumno acredita fehacientemente conocimientos en estos temas puede solicitar al Departamento correspondiente autorización para rendir examen final directamente sin cursar la materia.
-  utter_respuesta_informar_nivel_profesores:
-  - text: La UDG cumple con los requisitos impuestos por el Ministerio de Educación exigidos a los docentes universitarios. Además tiene sus propias exigencias en cuanto a los cargos que ocupa cada docente y la antigüedad y antecedentes que presenta cada uno. Más del 70% de los docentes de nuestra universidad tienen estudios de postgrados.
   utter_saludo:
   - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
 session_config:

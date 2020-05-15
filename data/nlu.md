@@ -344,8 +344,7 @@
 - Existen tutorías de informática e ingles?
 - En mi escuela no me enseñaron sobre algunas materias, no tengo una buena base, me proporcionan ayuda en esas materias, por ejemplo informática?
 - Quería saber si tienen algún tipo de profes de apoyo para ciertas materias
-- Necesito ayuda en informática e inglés. 
-- La ayuda siempre está disponible, ya sea por parte del equipo de cátedra o tutores pares. El único requisito es solicitarla.
+- Necesito ayuda en informática e inglés.
 - Dan ayuda en informatica y en ingles?
 - ¿Cuento con clases de apoyo en las áreas que tenga complicaciones?
 
@@ -361,6 +360,35 @@
 - Los profesores que me van a dar clases son profesores con experiencia? O  son recién recibidos? Hay algún doctor que nos enseñe en las clases?
 - Quería saber si los profesores son ingenieros o qué título tienen. Gracias
 - ¿Que estudios tienen los profesores?
-- El nivel de los profesores es siempre igual o superior a la carrera que se elija cursar.
 - que nivel academico tienen los profesores?
 - ¿Todos los profesores son idóneos en sus áreas?
+
+## intent:informar_equipamiento_tecnologico
+- ¿Cómo es el equipamiento tecnológico de la Universidad ?
+- ¿Qué equipamiento tecnológico tiene la Universidad Gastón Dachary?
+- Que clase de equipos posee la universidad Gastón dachary?
+- cuentan con aulas equipadas tecnologicamente
+- Cómo es el equipamiento de la Facultad?
+- Hola, la facultad cuenta con un laboratorio informático para utilizar las pc's? Por que no cuento con notebook para poder llevar a clases
+- Como son los equipos de cómputo y la infraestructura tecnología de la universidad? Los laboratorios cuentan con computadoras de última generación?
+- Buenas tardes, el Dachary cuenta con laboratorio tecnológico? Que tiene?
+- Con que elementos contamos para nuestra educación o futura educación? Con que equipamiento cuenta la facultad ? O debemos adquirir los elementos para el estudio?
+- Quería saber que tipo de máquinas tienen en el laboratorio
+- ¿Con qué tecnología cuentan en la Universidad?
+- Que equpamiento tecnologico tiene la UGD?
+- ¿Cómo funcionan las instalaciones de la universidad?
+
+## intent:informar_servicios
+- ¿Con qué servicios cuenta la Universidad?
+- ¿Qué servicios ofrece la Universidad?
+- Que servicios ofrece la universidad ?
+- existen servicios como bufet?
+- Que servicios ofrece la Universidad?
+- Buenas tardes, la facultad cuenta con gimnasio propio? O presenta algún tipo de servicio para poder ocupar dentro del establecimiento? Cancha de fútbol, piscina, biblioteca, etc?
+- Brindan algún servicio de comedor o albergue temporal?
+- Hola, me podrías enviar la lista de servicios?
+- Además de lo que ya pregunté, que otras cosas nos ofrece la universidad? A qué podemos acceder al cursar una carrera? Que beneficios tengo?
+- Hola, me gustaría saber cuáles son los servicios de los que puedo disponer como alumno
+- ¿Que carreras tiene la Facultad?
+- que servicios tiene la universidad?
+- ¿Que comodidades brinda la universidad a sus estudiantes?
