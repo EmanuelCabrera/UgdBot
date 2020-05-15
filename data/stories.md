@@ -135,3 +135,13 @@
 ## interactive_story_1
 * despedida
     - utter_despedida
+
+<!-- AYUDA EN INFORMATICA E INGLES  -->
+## informar ayuda en informatica e ingles happy path
+* informar_ayuda_informatica_ingles
+    - utter_respuesta_informar_ayuda_informatica_ingles
+
+<!-- NIVEL DE LOS PROFESORES -->
+## informar ayuda en informatica e ingles happy path
+* informar_nivel_profesores
+    - utter_respuesta_informar_nivel_profesores

@@ -17,6 +17,8 @@ actions:
 - utter_respuesta_requisito_inscripcion
 - utter_respuesta_visitas_consultas
 - utter_saludo
+- utter_respuesta_informar_ayuda_informatica_ingles
+- utter_respuesta_informar_nivel_profesores
 entities:
 - becas_hermanos
 - certificadas
@@ -45,6 +47,8 @@ intents:
 - visitas_consultas
 - informar_becas_hermanos
 - informar_horarios_trabajadores
+- informar_ayuda_informatica_ingles
+- informar_nivel_profesores
 responses:
   utter_agradecimiento:
   - text: De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
@@ -156,6 +160,10 @@ responses:
       sobre ella y atender cualquier consulta. Es conveniente solicitar un horario
       previamente para tener la seguridad que la persona que uno quiere contactar
       esté presente en ese momento.
+  utter_respuesta_informar_ayuda_informatica_ingles:
+  - text: Todas las carreras cuentan en su plan de estudios con materias de Informática e Inglés y al igual que todas las materias, los profesores apoyan a los alumnos con clases de consultas, si los alumnos lo solicitan. Si un alumno acredita fehacientemente conocimientos en estos temas puede solicitar al Departamento correspondiente autorización para rendir examen final directamente sin cursar la materia.
+  utter_respuesta_informar_nivel_profesores:
+  - text: La UDG cumple con los requisitos impuestos por el Ministerio de Educación exigidos a los docentes universitarios. Además tiene sus propias exigencias en cuanto a los cargos que ocupa cada docente y la antigüedad y antecedentes que presenta cada uno. Más del 70% de los docentes de nuestra universidad tienen estudios de postgrados.
   utter_saludo:
   - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
 session_config:
