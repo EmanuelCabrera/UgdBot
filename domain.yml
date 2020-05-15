@@ -4,9 +4,11 @@ actions:
 - utter_ayuda
 - utter_despedida
 - utter_feliz
+- utter_respuesta_asistencia
 - utter_respuesta_curso_ingreso
 - utter_respuesta_equivalencias
 - utter_respuesta_evaluacion_coneau
+- utter_respuesta_examen_recuperatorio
 - utter_respuesta_informar_becas_hermanos
 - utter_respuesta_informar_horarios_trabajadores
 - utter_respuesta_informar_modalidad_inscripcion
@@ -25,9 +27,11 @@ entities:
 - plazos
 - visitas
 intents:
+- despedida
+- informar_asistencia
+- informar_examen_recuperatorio
 - informar_equivalencias
 - informar_intercambio_de_estudio
-- despedida
 - agradecimiento
 - saludo
 - curso_ingreso
@@ -53,6 +57,12 @@ responses:
   - text: Espero haberte ayudado hasta la proxima.
   utter_feliz:
   - text: Great carry on!
+  utter_respuesta_asistencia:
+  - text: El régimen de asistencia a clases es obligatorio para las carreras presenciales
+      y los alumnos deben tener un 80% de asistencia. La asistencia de los alumnos
+      se marca con una tarjeta diseñada a tal efecto. El alumno puede solicitar un
+      régimen especial de asistencias por motivos laborales u otros que se consideren,
+      en tal caso se le reducirá a la exigencia a 50% de asistencia.
   utter_respuesta_curso_ingreso:
   - text: Existe un curso de ingreso nivelatorio que tiene por finalidad equiparar
       las condiciones académicas de los alumnos ingresantes atendiendo a las distintas
@@ -93,6 +103,16 @@ responses:
       \ vinculación, infraestructura. Se pueden consultar las carreras autorizadas\
       \ de la Universidad Gastón Dachary o de cualquier otra universidad del país\
       \ en el sitio web del Ministerio de Educación www.me.gov.ar)"
+  utter_respuesta_examen_recuperatorio:
+  - text: Existen exámenes parciales, recuperatorios de estos y exámenes finales.
+      Los primeros se producen durante el cursado de la materia y tienen el objetivo
+      del seguimiento del alumno. Generalmente tienen una modalidad escrita, aprobando
+      los exámenes o sus recuperatorios, la asistencia a clases y otras existencias
+      de la cátedra (por ejemplo trabajos prácticos) el alumno accede a la condición
+      de regular. En referencia a los exámenes finales, pueden ser orales, escritos
+      o ambos y aprobarlos es condición para aprobar la materia. Todos los exámenes
+      son evaluados con notas entre 0 (cero) y 10 (diez) y la nota mínima para aprobar
+      es 4 (cuatro), que generalmente representa el 60% del total del examen.
   utter_respuesta_informar_becas_hermanos:
   - text: La Universidad cuenta con un sistema de becas al que el alumno puede acceder
       cumpliendo con una serie de requisitos. Existe una beca por hermanos, que consiste
