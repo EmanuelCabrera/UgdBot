@@ -1,207 +1,100 @@
-actions:
-- utter_agradecimiento
-- utter_animar
-- utter_ayuda
-- utter_despedida
-- utter_feliz
-- utter_respuesta_asistencia
-- utter_respuesta_curso_ingreso
-- utter_respuesta_equivalencias
-- utter_respuesta_evaluacion_coneau
-- utter_respuesta_examen_recuperatorio
-- utter_respuesta_informar_ayuda_informatica_ingles
-- utter_respuesta_informar_becas_hermanos
-- utter_respuesta_informar_equipamiento_tecnologico
-- utter_respuesta_informar_horarios_trabajadores
-- utter_respuesta_informar_modalidad_inscripcion
-- utter_respuesta_informar_nivel_profesores
-- utter_respuesta_informar_servicios
-- utter_respuesta_intercambio_de_estudio
-- utter_respuesta_plazos_inscripcion
-- utter_respuesta_requisito_inscripcion
-- utter_respuesta_visitas_consultas
-- utter_saludo
-entities:
-- becas_hermanos
-- certificadas
-- curso
-- documentacion
-- horario_trabajadores
-- modalidad_inscripcion
-- plazos
-- visitas
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
+- afirmacion
+- agradecimiento
+- despedida
+- negacion
+- saludo
+- requisitos_inscripcion
 - informar_servicios
 - informar_equipamiento_tecnologico
-- despedida
 - informar_asistencia
 - informar_examen_recuperatorio
 - informar_equivalencias
 - informar_intercambio_de_estudio
-- agradecimiento
-- saludo
 - curso_ingreso
 - certificadas
 - evaluacion_coneau
 - plazos_inscripcion
-- requisitos_inscripcion
-- afirmacion
-- negacion
 - informar_modalidad_inscripcion
 - visitas_consultas
 - informar_becas_hermanos
 - informar_horarios_trabajadores
 - informar_ayuda_informatica_ingles
 - informar_nivel_profesores
+# slots:
+#   email:
+#     type: unfeaturized
+#     influence_conversation: false
 responses:
-  utter_agradecimiento:
-  - text: De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
-  utter_animar:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_ayuda:
-  - text: Did that help you?
-  utter_despedida:
-  - text: Espero haberte ayudado hasta la proxima.
-  utter_feliz:
-  - text: Great carry on!
-  utter_respuesta_asistencia:
-  - text: El régimen de asistencia a clases es obligatorio para las carreras presenciales
-      y los alumnos deben tener un 80% de asistencia. La asistencia de los alumnos
-      se marca con una tarjeta diseñada a tal efecto. El alumno puede solicitar un
-      régimen especial de asistencias por motivos laborales u otros que se consideren,
-      en tal caso se le reducirá a la exigencia a 50% de asistencia.
-  utter_respuesta_curso_ingreso:
-  - text: Existe un curso de ingreso nivelatorio que tiene por finalidad equiparar
-      las condiciones académicas de los alumnos ingresantes atendiendo a las distintas
-      orientaciones que tiene el nivel medio en la actualidad. Este curso se dicta
-      en tres instancias, una es el cursillo anticipado que se hace de septiembre
-      a diciembre únicamente los días sábados, para el que quiera anticiparlo. Además,
-      está el cursillo habitual en los meses de febrero y marzo de 4 semanas de duración.
-      Y, en algunas carreras, se ha habilitado el comienzo del cursado en agosto para
-      lo que se ha instrumentado un curso de ingreso en julio, en cualquier caso se
-      deben aprobar los exámenes correspondientes.
-  utter_respuesta_equivalencias:
-  - text: Es una atribución de las Universidades resolver qué estudios acepta de otras
-      Universidades y cuales no. La UGD analiza cada caso en forma particular. Sólo
-      cuando un caso se repite varias veces el procedimiento se repite. De no ser
-      así, cada caso es analizado en forma particular, que se acepte o no depende
-      del plan de estudios, que esté adecuadamente certificada, con los trámites formales,
-      y que tenga la carga horaria, la bibliografía adecuada, los contenidos semejantes
-      a los de la carrera que se dicta aquí. Para reconocer estudios de una carrera
-      de nivel superior no universitario debe existir un convenio específico entre
-      ambas Instituciones.
-  utter_respuesta_evaluacion_coneau:
-  - text: "Sí, y después de una década de evaluación de la CONEAU, en febrero de 2009\
-      \ logramos la autorización definitiva y pasamos de ser Instituto Universitario\
-      \ a Universidad, por decreto del Poder Ejecutivo Nacional.\nEn 2008, la UGD\
-      \ cumplió diez años de trayectoria. Desde 1998, año en que abrió sus puertas,\
-      \ nuestra universidad transitó su historia bajo distintos procesos de evaluación\
-      \ de la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU).\n\
-      La UGD fue evaluada en varias instancias. Primero, su proyecto original por\
-      \ CONEAU, el Consejo de Rectores de Universidades Privadas (CRUP), el Ministerio\
-      \ de Educación de la Nación; y a pedido de estos por otras instituciones y profesionales\
-      \ que emitieron su opinión, previo a la autorización. Una vez autorizado en\
-      \ 1998 su funcionamiento y validez de los títulos (Decreto 158 del Poder Ejecutivo\
-      \ Nacional), el Ministerio de Educación y la CONEAU realizaron evaluaciones\
-      \ anuales, que terminaban en un informe anual que servía para que la Universidad\
-      \ pueda mejorar aquellos aspectos que la CONEAU informaba. En julio del 2007\
-      \ culminó el proceso de Evaluación Externa de nuestra institución.\nLa Evaluación\
-      \ Externa abarcó todos los aspectos= aspectos Académicos, de gestión, investigación,\
-      \ vinculación, infraestructura. Se pueden consultar las carreras autorizadas\
-      \ de la Universidad Gastón Dachary o de cualquier otra universidad del país\
-      \ en el sitio web del Ministerio de Educación www.me.gov.ar)"
-  utter_respuesta_examen_recuperatorio:
-  - text: Existen exámenes parciales, recuperatorios de estos y exámenes finales.
-      Los primeros se producen durante el cursado de la materia y tienen el objetivo
-      del seguimiento del alumno. Generalmente tienen una modalidad escrita, aprobando
-      los exámenes o sus recuperatorios, la asistencia a clases y otras existencias
-      de la cátedra (por ejemplo trabajos prácticos) el alumno accede a la condición
-      de regular. En referencia a los exámenes finales, pueden ser orales, escritos
-      o ambos y aprobarlos es condición para aprobar la materia. Todos los exámenes
-      son evaluados con notas entre 0 (cero) y 10 (diez) y la nota mínima para aprobar
-      es 4 (cuatro), que generalmente representa el 60% del total del examen.
-  utter_respuesta_informar_ayuda_informatica_ingles:
-  - text: Todas las carreras cuentan en su plan de estudios con materias de Informática
-      e Inglés y al igual que todas las materias, los profesores apoyan a los alumnos
-      con clases de consultas, si los alumnos lo solicitan. Si un alumno acredita
-      fehacientemente conocimientos en estos temas puede solicitar al Departamento
-      correspondiente autorización para rendir examen final directamente sin cursar
-      la materia.
-  utter_respuesta_informar_becas_hermanos:
-  - text: La Universidad cuenta con un sistema de becas al que el alumno puede acceder
-      cumpliendo con una serie de requisitos. Existe una beca por hermanos, que consiste
-      en una bonificación del 15% de la cuota a uno de los hermanos.
-  utter_respuesta_informar_equipamiento_tecnologico:
-  - text: ' La UGD cuenta con un equipamiento de tecnología avanzada para posibilitar
-      y facilitar las actividades académicas, como así también contribuir con el desarrollo
-      integral del alumno. Con tal fin, se dispone de 4 Laboratorios Informáticos
-      distribuidos en ambas sedes: Sede Central Posadas y Centro Académico Oberá.
-      El Instituto cuenta también con un Laboratorio de Telecomunicaciones estandarizados
-      por Cisco Systems (con características iguales en cualquier academia del mundo)
-      provisto y certificado por Cisco. La UGD tiene un sistema de gestión de la información
-      académica administrativa ágil, interactivo y personalizado. Por otra parte,
-      mediante las redes que cuentan los laboratorios, los usuarios tienen acceso
-      a todos los servicios brindados por la Institución (autogestión, e-mail, información,
-      etc.). '
-  utter_respuesta_informar_horarios_trabajadores:
-  - text: Los horarios de la UGD permiten al alumno trabajar. Los planes de estudio
-      contemplan espacios de pasantías o prácticas profesionales. Generalmente sirven
-      de primera experiencia y frecuentemente termina en una relación laboral. Hoy
-      existe mucha más demanda que alumnos dispuestos a trabajar, todos los alumnos
-      que desean trabajar lo están haciendo. Con este fin, se están desarrollando
-      materias de tercero y cuarto año con carácter semi-presencial. El objetivo es
-      que el alumno que empezó a trabajar, tenga menor necesidad de presencialidad
-      y así pueda estar en mejores condiciones de trabajar.
-  utter_respuesta_informar_modalidad_inscripcion:
-  - text: La inscripción es un trámite personal, y en el caso de menores de 21 años,
-      debe estar presente el padre para suscribir la ficha de inscripción.
-  utter_respuesta_informar_nivel_profesores:
-  - text: La UDG cumple con los requisitos impuestos por el Ministerio de Educación
-      exigidos a los docentes universitarios. Además tiene sus propias exigencias
-      en cuanto a los cargos que ocupa cada docente y la antigüedad y antecedentes
-      que presenta cada uno. Más del 70% de los docentes de nuestra universidad tienen
-      estudios de postgrados.
-  utter_respuesta_informar_servicios:
-  - text: ' El principal servicio que ofrecemos a los alumnos es la atención personalizada
-      en el aula. Cada comisión, cuenta con la cantidad de alumnos adecuada, lo que
-      favorece la atención de consultas y la interrelación alumno docente; lo que
-      facilita el aprendizaje. La Universidad cuenta también con servicios de biblioteca,
-      laboratorios informáticos y deportes. Todos los alumnos tienen acceso directo
-      a directivos de la Institución, quienes pueden atender consultas generales o
-      particulares. Además, funciona la Dirección de Asuntos Estudiantiles donde pueden
-      detectarse y tratarse casos de alumnos con problemas de aprendizaje y/o métodos
-      de estudio. Los alumnos de la UGD tienen también acceso a beneficios exclusivos,
-      entre estos bonificaciones en entradas al cine y cuota de gimnasios. '
-  utter_respuesta_intercambio_de_estudio:
-  - text: 'Tenemos convenios de intercambio con la Universidad de Vigo y la Universidad
-      de Guadalajara; y estamos firmando convenio con universidades de Brasil: UNIJUI
-      y FEMA. Los convenios permiten que el alumno de la UGD puedan cursar algunas
-      materias durante un período determinado, o bien realizar algún trabajo de investigación
-      en la Universidad extranjera. Estas actividades tienen el objetivo de cumplimentar
-      la formación del alumno con actividades académicas, de formación y cultura general
-      y fortalecer los lazos entre la comunidad académica de las Instituciones participantes.'
-  utter_respuesta_plazos_inscripcion:
-  - text: La Universidad Gastón Dachary abre las inscripciones a partir de septiembre
-      y hasta marzo en todas sus carreras. Además, la carrera de Contador Nacional
-      Público tiene un período excepcional de inscripción en junio, cuyo cursillo
-      se realiza en julio y el inicio de clases en agosto.
-  utter_respuesta_requisito_inscripcion:
-  - text: Para poder inscribirte debes presentar el Documento Nacional del Identidad
-      (DNI) actualizado y las fotocopias del mismo, fotocopia autenticada de la partida
-      de nacimiento, título de estudios secundarios y fotocopia del mismo o constancia
-      de título en trámite. También debes presentar certificado de buena salud y grupo
-      sanguíneo, cuatro fotos 4x4 y una carpeta colgante. Para inscribirte al curso
-      anticipado de ingreso debes presentar una constancia de estar cursando el último
-      año del Polimodal o Nivel Medio.
-  utter_respuesta_visitas_consultas:
-  - text: Las puertas de la UGD están abiertas para todo aquel que desee conocerla.
-      Se puede visitar la universidad y las autoridades están abiertas a informar
-      sobre ella y atender cualquier consulta. Es conveniente solicitar un horario
-      previamente para tener la seguridad que la persona que uno quiere contactar
-      esté presente en ese momento.
   utter_saludo:
-  - text: Hola soy Felix el asistente de la universidad UGD. En que puedo ayudarte?
-session_config:
-  carry_over_slots_to_new_session: true
-  session_expiration_time: 0
+  - text: |
+      Hola soy el asistente de la universidad UGD. En que puedo ayudarte?
+  utter_agradecimiento:
+  - text: |
+      De nada espero haberte ayudado! Estoy a disposicion por cualquier consulta.
+  utter_despedida:
+  - text: |
+      Espero haberte ayudado hasta la proxima.
+  utter_respuesta_requisito_inscripcion:
+  - text: |
+      Para poder inscribirte debes presentar el Documento Nacional del Identidad (DNI) actualizado y las fotocopias del mismo, fotocopia autenticada de la partida de nacimiento, título de estudios secundarios y fotocopia del mismo o constancia de título en trámite. También debes presentar certificado de buena salud y grupo sanguíneo, cuatro fotos 4x4 y una carpeta colgante. Para inscribirte al curso anticipado de ingreso debes presentar una constancia de estar cursando el último año del Polimodal o Nivel Medio.
+  utter_respuesta_asistencia:
+  - text: |
+      El régimen de asistencia a clases es obligatorio para las carreras presenciales y los alumnos deben tener un 80% de asistencia. La asistencia de los alumnos se marca con una tarjeta diseñada a tal efecto. El alumno puede solicitar un régimen especial de asistencias por motivos laborales u otros que se consideren, en tal caso se le reducirá a la exigencia a 50% de asistencia.
+  utter_respuesta_curso_ingreso:
+  - text: |
+      Existe un curso de ingreso nivelatorio que tiene por finalidad equiparar las condiciones académicas de los alumnos ingresantes atendiendo a las distintas orientaciones que tiene el nivel medio en la actualidad. Este curso se dicta en tres instancias, una es el cursillo anticipado que se hace de septiembre a diciembre únicamente los días sábados, para el que quiera anticiparlo. Además, está el cursillo habitual en los meses de febrero y marzo de 4 semanas de duración. Y, en algunas carreras, se ha habilitado el comienzo del cursado en agosto para lo que se ha instrumentado un curso de ingreso en julio, en cualquier caso se deben aprobar los exámenes correspondientes.
+  utter_respuesta_equivalencias:
+  - text: |
+      Es una atribución de las Universidades resolver qué estudios acepta de otras Universidades y cuales no. La UGD analiza cada caso en forma particular. Sólo cuando un caso se repite varias veces el procedimiento se repite. De no ser así, cada caso es analizado en forma particular, que se acepte o no depende del plan de estudios, que esté adecuadamente certificada, con los trámites formales, y que tenga la carga horaria, la bibliografía adecuada, los contenidos semejantes a los de la carrera que se dicta aquí. Para reconocer estudios de una carrera de nivel superior no universitario debe existir un convenio específico entre ambas Instituciones.
+  utter_respuesta_evaluacion_coneau:
+  - text: |
+      "Sí, y después de una década de evaluación de la CONEAU, en febrero de 2009 logramos la autorización definitiva y pasamos de ser Instituto Universitario a Universidad, por decreto del Poder Ejecutivo Nacional.
+      En 2008, la UGD cumplió diez años de trayectoria. Desde 1998, año en que abrió sus puertas, nuestra universidad transitó su historia bajo distintos procesos de evaluación de la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU).
+      UGD fue evaluada en varias instancias. Primero, su proyecto original por CONEAU, el Consejo de Rectores de Universidades Privadas (CRUP), el Ministerio de Educación de la Nación; y a pedido de estos por otras instituciones y profesionales que emitieron su opinión, previo a la autorización. Una vez autorizado en 1998 su funcionamiento y validez de los títulos (Decreto 158 del Poder Ejecutivo Nacional), el Ministerio de Educación y la CONEAU realizaron evaluaciones anuales, que terminaban en un informe anual que servía para que la Universidad pueda mejorar aquellos aspectos que la CONEAU informaba. En julio del 2007 culminó el proceso de Evaluación Externa de nuestra institución.La Evaluación Externa abarcó todos los aspectos= aspectos Académicos, de gestión, investigación, vinculación, infraestructura. Se pueden consultar las carreras autorizadas de la Universidad Gastón Dachary o de cualquier otra universidad del país en el sitio web del Ministerio de Educación www.me.gov.ar)"
+  utter_respuesta_examen_recuperatorio:
+  - text: |
+      Existen exámenes parciales, recuperatorios de estos y exámenes finales. Los primeros se producen durante el cursado de la materia y tienen el objetivo del seguimiento del alumno. Generalmente tienen una modalidad escrita, aprobando los exámenes o sus recuperatorios, la asistencia a clases y otras existencias de la cátedra (por ejemplo trabajos prácticos) el alumno accede a la condición de regular. En referencia a los exámenes finales, pueden ser orales, escritos o ambos y aprobarlos es condición para aprobar la materia. Todos los exámenes son evaluados con notas entre 0 (cero) y 10 (diez) y la nota mínima para aprobar es 4 (cuatro), que generalmente representa el 60% del total del examen.
+  utter_respuesta_informar_ayuda_informatica_ingles:
+  - text: |
+      Todas las carreras cuentan en su plan de estudios con materias de Informática e Inglés y al igual que todas las materias, los profesores apoyan a los alumnos con clases de consultas, si los alumnos lo solicitan. Si un alumno acredita fehacientemente conocimientos en estos temas puede solicitar al Departamento correspondiente autorización para rendir examen final directamente sin cursar la materia.
+  utter_respuesta_informar_becas_hermanos:
+  - text: |
+      La Universidad cuenta con un sistema de becas al que el alumno puede acceder cumpliendo con una serie de requisitos. Existe una beca por hermanos, que consiste en una bonificación del 15% de la cuota a uno de los hermanos.
+  utter_respuesta_informar_equipamiento_tecnologico:
+  - text: |
+      La UGD cuenta con un equipamiento de tecnología avanzada para posibilitar y facilitar las actividades académicas, como así también contribuir con el desarrollo integral del alumno. Con tal fin, se dispone de 4 Laboratorios Informáticos distribuidos en ambas sedes: Sede Central Posadas y Centro Académico Oberá. El Instituto cuenta también con un Laboratorio de Telecomunicaciones estandarizados por Cisco Systems (con características iguales en cualquier academia del mundo) provisto y certificado por Cisco. La UGD tiene un sistema de gestión de la información académica administrativa ágil, interactivo y personalizado. Por otra parte, mediante las redes que cuentan los laboratorios, los usuarios tienen acceso a todos los servicios brindados por la Institución (autogestión, e-mail, información, etc.).
+  utter_respuesta_informar_horarios_trabajadores:
+  - text: |
+      Los horarios de la UGD permiten al alumno trabajar. Los planes de estudio contemplan espacios de pasantías o prácticas profesionales. Generalmente sirven de primera experiencia y frecuentemente termina en una relación laboral. Hoy existe mucha más demanda que alumnos dispuestos a trabajar, todos los alumnos que desean trabajar lo están haciendo. Con este fin, se están desarrollando materias de tercero y cuarto año con carácter semi-presencial. El objetivo es que el alumno que empezó a trabajar, tenga menor necesidad de presencialidad y así pueda estar en mejores condiciones de trabajar.
+  utter_respuesta_informar_modalidad_inscripcion:
+  - text: |
+      La inscripción es un trámite personal, y en el caso de menores de 21 años, debe estar presente el padre para suscribir la ficha de inscripción.
+  utter_respuesta_informar_nivel_profesores:
+  - text: |
+      La UDG cumple con los requisitos impuestos por el Ministerio de Educación exigidos a los docentes universitarios. Además tiene sus propias exigencias en cuanto a los cargos que ocupa cada docente y la antigüedad y antecedentes que presenta cada uno. Más del 70% de los docentes de nuestra universidad tienen estudios de postgrados.
+  utter_respuesta_informar_servicios:
+  - text: |
+      El principal servicio que ofrecemos a los alumnos es la atención personalizada en el aula. Cada comisión, cuenta con la cantidad de alumnos adecuada, lo que favorece la atención de consultas y la interrelación alumno docente; lo que facilita el aprendizaje. La Universidad cuenta también con servicios de biblioteca, laboratorios informáticos y deportes. Todos los alumnos tienen acceso directo a directivos de la Institución, quienes pueden atender consultas generales o particulares. Además, funciona la Dirección de Asuntos Estudiantiles donde pueden detectarse y tratarse casos de alumnos con problemas de aprendizaje y/o métodos de estudio. Los alumnos de la UGD tienen también acceso a beneficios exclusivos, entre estos bonificaciones en entradas al cine y cuota de gimnasios.
+  utter_respuesta_intercambio_de_estudio:
+  - text: |
+      Tenemos convenios de intercambio con la Universidad de Vigo y la Universidad de Guadalajara; y estamos firmando convenio con universidades de Brasil: UNIJUI y FEMA. Los convenios permiten que el alumno de la UGD puedan cursar algunas materias durante un período determinado, o bien realizar algún trabajo de investigación en la Universidad extranjera. Estas actividades tienen el objetivo de cumplimentar la formación del alumno con actividades académicas, de formación y cultura general y fortalecer los lazos entre la comunidad académica de las Instituciones participantes.
+  utter_respuesta_plazos_inscripcion:
+  - text: |
+      La Universidad Gastón Dachary abre las inscripciones a partir de septiembre y hasta marzo en todas sus carreras. Además, la carrera de Contador Nacional Público tiene un período excepcional de inscripción en junio, cuyo cursillo se realiza en julio y el inicio de clases en agosto.
+  utter_respuesta_visitas_consultas:
+  - text: |
+      Las puertas de la UGD están abiertas para todo aquel que desee conocerla.
+  # 
+# actions:
+# - '...'
+# - utter_greet
+# - utter_subscribed
+# forms:
+#   newsletter_form:
+#     email:
+#     - type: from_text

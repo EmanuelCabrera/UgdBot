@@ -1,0 +1,172 @@
+stories:
+ - story: requisitos
+   steps:
+   - intent: requisitos_inscripcion
+   - action: utter_respuesta_requisito_inscripcion
+
+ - story: requisitos
+   steps:
+   - intent: saludo
+   - action: utter_saludo
+   - intent: requisitos_inscripcion
+   - action: utter_respuesta_requisito_inscripcion
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: plazo inscripcion
+   steps:
+   - intent: plazos_inscripcion
+   - action: utter_respuesta_plazos_inscripcion
+
+ - story: plazo inscripcion
+   steps:
+   - intent: saludo
+   - action: utter_saludo
+   - intent: plazos_inscripcion
+   - action: utter_respuesta_plazos_inscripcion
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: evaluacion coneau
+   steps:
+   - intent: evaluacion_coneau
+   - action: utter_respuesta_evaluacion_coneau
+
+ - story: evaluacion coneau
+   steps:
+   - intent: saludo
+   - action: utter_saludo
+   - intent: evaluacion_coneau
+   - action: utter_respuesta_evaluacion_coneau
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: agradecimiento
+   steps:
+   - intent: agradecimiento
+   - action: utter_agradecimiento
+
+ - story: despedida
+   steps:
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: curso de ingreso
+   steps:
+   - intent: curso_ingreso
+   - action: utter_respuesta_curso_ingreso
+
+ - story: curso de ingreso
+   steps:
+   - intent: saludo
+   - action: utter_saludo
+   - intent: curso_ingreso
+   - action: utter_respuesta_curso_ingreso
+   - intent: agradecimiento
+   - action: utter_agradecimiento
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: modalidad inscripcion
+   steps:
+   - intent: informar_modalidad_inscripcion
+   - action: utter_respuesta_informar_modalidad_inscripcion
+
+ - story: modalidad inscripcion
+   steps:
+   - intent: saludo
+   - action: utter_saludo
+   - intent: informar_modalidad_inscripcion
+   - action: utter_respuesta_informar_modalidad_inscripcion
+   - intent: agradecimiento
+   - action: utter_agradecimiento
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: visitas consultas
+   steps:
+   - intent: visitas_consultas
+   - action: utter_respuesta_visitas_consultas
+
+ - story: visitas consultas
+   steps:
+   - intent: saludo
+   - action: utter_saludo
+   - intent: visitas_consultas
+   - action: utter_respuesta_visitas_consultas
+   - intent: agradecimiento
+   - action: utter_agradecimiento
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: becas hermanos
+   steps:
+   - intent: informar_becas_hermanos
+   - action: utter_respuesta_informar_becas_hermanos
+
+ - story: becas hermanos
+   steps:
+   - intent: saludo
+   - action: utter_saludo
+   - intent: informar_becas_hermanos
+   - action: utter_respuesta_informar_becas_hermanos
+   - intent: agradecimiento
+   - action: utter_agradecimiento
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: horarios trabajadores
+   steps:
+   - intent: informar_becas_hermanos
+   - action: utter_respuesta_informar_becas_hermanos
+
+ - story: horarios trabajadores
+   steps:
+   - intent: saludo
+   - action: utter_saludo
+   - intent: informar_horarios_trabajadores
+   - action: utter_respuesta_informar_horarios_trabajadores
+   - intent: agradecimiento
+   - action: utter_agradecimiento
+   - intent: despedida
+   - action: utter_despedida
+
+ - story: intercambio de estudio
+   steps:
+   - intent: informar_intercambio_de_estudio
+   - action: utter_respuesta_intercambio_de_estudio
+
+ - story: equivalencias
+   steps:
+   - intent: informar_equivalencias
+   - action: utter_respuesta_equivalencias
+
+ - story: examen recuperatorio
+   steps:
+   - intent: informar_examen_recuperatorio
+   - action: utter_respuesta_examen_recuperatorio
+
+ - story: asistencias
+   steps:
+   - intent: informar_asistencia
+   - action: utter_respuesta_asistencia
+
+ - story: ayuda en informatica e ingles
+   steps:
+   - intent: informar_ayuda_informatica_ingles
+   - action: utter_respuesta_informar_ayuda_informatica_ingles
+
+ - story: nivel profesores
+   steps:
+   - intent: informar_nivel_profesores
+   - action: utter_respuesta_informar_nivel_profesores
+
+ - story: equipamiento tecnologico
+   steps:
+   - intent: informar_equipamiento_tecnologico
+   - action: utter_respuesta_informar_equipamiento_tecnologico
+
+ - story: servicios
+   steps:
+   - intent: informar_servicios
+   - action: utter_respuesta_informar_servicios

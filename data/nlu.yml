@@ -1,0 +1,417 @@
+nlu:
+- intent: afirmacion
+  examples: |
+    - si
+    - por supuesto
+    - eso suena bien
+    - correct
+
+- intent: agradecimiento
+  examples: |
+    - Gracias
+    - Muchas Gracias
+    - gracias
+    - muchas gracias
+
+- intent: despedida
+  examples: |
+    - Chau
+    - Nos vemos
+    - Nos vemos luego
+    - muchas gracias hasta luego
+    - gracias, chau
+    - chau
+    - adios
+
+- intent: negacion
+  examples: |
+    - no
+    - nunca
+    - creo que no
+    - eso no me gusta
+    - de ninguna manera
+    - no realmente
+
+- intent: saludo
+  examples: |
+    - Hola
+    - Hola, buen dia
+    - Buenos dias
+    - Buenas tardes
+    - Buenas noches
+    - hola
+    - buenas tardes
+
+- intent: requisitos_inscripcion
+  examples: |
+    - buenos días cuales son los requisitos para inscribirme?
+    - Que necesito para inscribirme?
+    - Requisitos de Inscripción
+    - Hola buen dia! queria saber que papeles tengo que presentar para inscribirme? Gracias
+    - Que requisitos debo presentar para inscripción?
+    - Hola podrían informarme sobre los requisitos de inscripción?
+    - Cómo me inscribo? (materia, curso, final Qué necesito?
+    - Qué documentos se requieren para la inscripción?
+    - Buenos días! Cuáles son los requisitos para la inscripción?
+    - La docunentación solicitada en inscripcion
+    - ¿Qué necesito para inscribirme?
+    - ¿Buenos días, quería consultar que requisitos necesito presentar para poder inscribirme?
+    - Hola le escribo para consultar, ¿que documentación se necesita para la inscripción en la facultad?
+    - Qué requisitos necesito para poder inscribirme?
+    - ¿Cuáles son los requisitos de inscripción?
+    - Buenos días, qué papeles debo presentar para inscribirme?
+    - Cuáles son los requisitos de inscripción?
+    - Buenas tardes, para realizar X curso ¿cuales son los requisitos?
+    - ¿Cuál es la documentación a presentar?
+    - Hola, ¿que requisitos tienen para la incorporación ?
+    - ¿Qué documentación debo presentar para inscribirme?
+    - Que requisitos son necesarios para por Inscribirme (materias, mesas, talleres
+    - hola, que documentos necesito para la inscripción
+    - ¿Es necesario presentar alguna documentación para la inscripción?
+    - Cuáles son los requisitos de inscripción?
+    - requisitos de inscripcion
+
+- intent: plazos_inscripcion
+  examples: |
+    - ¿Me puedo inscribir en cualquier momento
+    - a partir de que fecha puedo presentarme para inscribirme en una carrera?
+    - Cuáles son los plazos de inscripción?
+    - Hasta que tiempo tengo para inscribirme?
+    - Hay una fecha límite de inscripción?
+    - Cuáles los los plazos de inscripción?
+    - Hasta cuando me puedo inscribir?
+    - La inscripción se puede realizar en cualquier momento?
+    - ¿Se puede inscribir en cualquier mes?
+    - ¿Cuando me puedo inscribir?
+    - ¿Cuándo puedo inscribirme?
+    - ¿Aceptan mi documentación en cualquier momento?
+    - Hola, le consulto ¿hasta cuándo tengo tiempo para inscribirme?
+    - Hasta que fecha es el plazo de inscripción?
+    - ¿Cuál es la fecha o el plazo de inscripción?
+    - ¿Cuándo son las inscripciones?
+    - Cuáles son las fechas de inscripción?
+    - Fecha de inscripción?
+    - ¿Cuando debo inscribirme?
+    - ¿Cuál es la fecha límite de inscripción?
+    - ¿Qué días están habilitados para inscripciones?
+    - Cuando se habilitan las inscripciones? 
+    - hay fechas para inscribirse?
+    - ¿Existen fechas preestablecidas de inscripción?
+    - Puedo inscribirme en cualquier momento del año?
+    - Hay un plazo para la inscripción?
+
+- intent: evaluacion_coneau
+  examples: |
+    - ¿La UGD y las carreras que ofrece fueron evaluadas por la CONEAU?
+    - las carreras que ofrece la universidad están certificadas por la entidad coneau?
+    - La Coneau evaluo la Institucion?
+    - La oferta academia de la UGD fue evaluada por la CONEAU?
+    - La carrera que elegi esta evaluada por la coneau?
+    - La UGD y sus carreras que ofrecen fueron evaluados por la CONEAU
+    - Las carreras fueron aprobadas por la coneau?
+    - La UGD y las carreras que ofrece tienen el aval de la CONEAU?
+    - La universidad está avalada por la CONEAU?
+    - ¿La IGD posee aval de la CONEAU?
+    - ¿Las carreras de la UGD son aprobadas por la CONEAU?
+    - ¿Tienen validez académica la universidad y sus carreras?
+    - ¿Las carreras que ofrece la facultad tienen validez nacional?
+    - Buenos días, quisiera saber si ¿las carreras actuales son evaluadas por la CONEAU?
+    - La universidad, al igual que las carreras, son evaluadas por la CONEAU ?
+    - ¿La oferta académica de la UGD fue evaluada por la CONEAU?
+    - Tengo una consulta, ¿la UGD fue evaluada por la CONEAU?
+    - Quiénes evaluan la carrera?
+    - Su aprobación ¿tiene reconocimiento nacional? o solo provincial?
+    - ¿Tienen certificación por la CONEAU?
+    - ¿ Las carreras que ofrece la Universidad fueron evaluadas por la CONEAU?
+    - Que avales tiene la carrera
+    - Las carreras que ofrece la UGD ¿tienen el aval de la CONEAU?
+    - Las carreras de la ugd están avaladas por la CONEAU?
+    - la coneau aprueba las carreras del dachary?
+    - ¿Porque organismo está avalada la universidad y propuestas académicas?
+    - Las carreras ofrecidas por la UGD cuentan con el aval o la aprobación de la CONEAU
+    - Las carreras están acreditadas por la CONEAU o en proceso de acreditación?
+    - ¿Tienen certificación por la CONEAU?
+
+- intent: curso_ingreso
+  examples: |
+    - ¿Hay ingreso sin limitaciones o hay que hacer algún curso?
+    - Hay curso de ingreso?
+    - Existe cursillo de Ingreso?
+    - hace falta rendir curso de ingreso?
+    - Para el ingreso hay algún cursillo?
+    - Hay cursillo de ingreso?
+    - Tengo que hcer un cursillo de ingreso/ nivelatorio?
+    - Hay que rendir ingreso?
+    - ¿Se rinde algún cursillo ?
+    - ¿Hay cursillo de ingreso o examen?
+    - ¿Hay un curso de ingreso?
+    - ¿El ingreso es eliminatorio o nivelatorio?
+    - Hola, buenas tardes ¿es necesario la realización de algún cursillo?
+    - Para el ingreso se debe realizar un cursillo con examen eliminatorio o simplemente es nivelatorio?
+    - ¿El ingreso a las carreras es con un exámen nivelatorio o eliminatorio?
+    - ¿El cursillo de  ingreso es eliminatorio?
+    - Hay curso de nivelación de ingreso?
+    - Los cursos: ¿son eliminatorios? ¿Cuenta con charlas previas u otra particularidad?
+    - ¿Hay un cupo de inscripciones  o curso de ingreso?
+    - Elcursado de ingreso es nivelatorio?
+    - ¿Hay cursillo de ingreso?
+    - Hay que hacer un cursillo de ingreso
+    - ¿La universidas exige como condición de ingreso la realización de talleres de nivelación por carrera?
+    - Para cursar las carreras en la U.G.D.¿existe examen de ingreso eliminatorio?
+    - Para Inscribirme a una carrera hay cursillo de ingreso?
+    - hola, tengo que hacer un cursillo de ingreso?
+    - ¿Existe curso de ingreso eliminatorio?
+    - Para ingresar se solicita realizar algún curso de ingreso o nivelación?
+    - Hay que realizar un cursillo para el ingreso?
+    - hay curso de ingreso?
+    - para ingresar hay un curso de ingreso o nivelatorio?
+
+- intent: informar_modalidad_inscripcion
+  examples: |
+    - ¿Tengo que inscribirme personalmente o puedo hacerlo a distancia?
+    - Puedo inscribirme a distancia?
+    - Cuáles son las modalidades de inscripción?
+    - si vivo lejos puedo inscribirme desde aca?
+    - La inscripción es personal o virtual
+    - Puedo inscribirme vía online?
+    - Cómo me puedo inscribir?
+    - La inscripción se puede realizar de forma virtual?
+    - ¿Para la inscripción debo acercarme a la institución o lo puedo hacer on line?
+    - ¿Se puede inscribir virtualmente?
+    - ¿Tengo que presentarme de forma personal para inscribirme?
+    - ¿Qué canales existen disponibles para poder inscribirme?
+    - Hola, quisiera saber si ¿es necesario inscribirme personalmente o lo puedo hacer de manera virtual?
+    - La inscripción es online o presencial?
+    - ¿Las inscripciones son virtuales?
+    - ¿Puedo inscribirme online?
+    - Tengonque ir personalmente a incribirme o puede ir alguien en representación
+    - Modalidad de inscripción?
+    - ¿Puedo realizar la inscripción. A travé de la página?
+    - Puedo inscribirme de manera virtual y abonar de la misma forma
+    - ¿Existe algún formulario de inscripción online?
+    - ¿la inscripciones online?
+    - ¿Las inscripciones son presenciales o virtuales?
+    - Si vivo en el interior, Las inscripciones a las carreras se realizan personalmente?
+    - debo inscribirme en el edificio de la facultad o lo puedo hacer desde casa?
+    - ¿El proceso de inscripción es presencial o es posible realizarlo vía online?
+    - Puedo realizar inscripción a distancia o solamente de manera presencial?
+    - Puede inscribirme de manera online o requieren necesariamente que me presente en persona a realizarlo?
+
+- intent: visitas_consultas
+  examples: |
+    - ¿Puedo visitar la Universidad? ¿Puedo hablar con un profesor o con el Rector?
+    - Necesito hablar con el rector, lo puedo hacer?
+    - Cómo puedo comunicarme con profesores o autoridades de la Universidad? Puedo acceder a las instalaciones para conocer?
+    - hay algun directivo que me deje hablar con el?
+    - Se podria visitar la univ. El acceso a los Directivos es flexible?
+    - Puedo hacer una visita a la universidad y hablar con algún profesor?
+    - Quiero conocer la universidad y conocer a mis posibles profesores. Que tengo que hacer?
+    - Se puede realizar una visita a la universidad? 
+    - ¿Se puede visitar la Institución y se puede acercar a algún docente?
+    - ¿Se puede visitar la universidad? ¿Se puede hablar con las autoridades?
+    - ¿Puedo conocer antes la facultad o algún docente o directivo?
+    - ¿A quién me tengo que dirigir para visitar la universidad?
+    - Hola, le consulto ¿puedo visitar la universidad? ¿existe la posibilidad de una entrevista o charla con el rector o algún profesor?
+    - Se puede realizar visitas a la Universidad y charlar con algún profesor o con el Rector?
+    - ¿Las visitas a la universidad son programadas?¿Puedo entrevistarme con el rector de la institución?
+    - ¿Puedo pasar a conocer la Universidad y hablar con algún Profesor?
+    - Tienen un personal asistente para contestar inquietudes?
+    - ¿De que manera puedo conocer la Universidad y a su claustro directivo y docentes?
+    - ¿Puedo ir a conocer la Universidad y conversar con los docentes?
+    - Pueso presenciar una clase para ver las dinámicas grupales
+    - ¿Puedo  conocer las instalaciones de la Universidad? ¿ y a sus docentes?
+    - Si necesitase asesoramiento puntual sobre la carrera ¿podría entrevistarme con algún profesor, o cualquier otro personal autorizado para ese fin?
+    - Me puedo acercar a la universidad para conocer o para que me den mas info? 
+    - puedo ir a ver la facultad para hablar con el rector?
+    - ¿Es posible realiza algún tipo de visita previa para conocer la universidad? ¿Hay posibilidades de tener contacto con profesores o rectores?
+    - Se puede realizar una visita guiada en la universidad a cargo de algún docente o el rector?
+    - Es posible conocer la Universidad y si hay oportunidad, hablar con algún profesor o con el Rector de la misma?
+
+- intent: informar_becas_hermanos
+  examples: |
+    - Cuáles son las becas o beneficios existentes para estudiantes y familiares de estudiantes?
+    - si tengo un hermano que tambien quiere estudiar ahi, hay alguna beca para los dos?
+    - Se pueden adquirir becas, algun descuento por grupo fliar estudiantil
+    - Tiene algún sistema de becas?
+    - Necesito una beca para estudiar Cómo accedo a ella? Si estudiamos con mis hermanos en la UGD, tenemos algún beneficio?
+    - La universidad ofrece becas? Tiene descuento por grupo familiar?
+    - ¿Existen becas? ¿Descuentos por hermanos?
+    - ¿Que becas hay? ¿Hay descuento para hermanos?
+    - ¿Hay posibilidad de reducir el costo de las cuotas?
+    - ¿Tienen becas disponibles?
+    - Hola, le escribo para consultar lo siguiente: ¿que becas hay? ¿hay alguna para hermanos?
+    - Existe la posibilidad de obtener una beca o bonificacion para hermanos?
+    - ¿La UGD otorga becas? ¿Cuáles son los requisitos para acceder a una beca? ¿Existe algún tipo de bonificación para hermanos?
+    - Tengo una consulta que hacer, ¿hay becas? ¿hay bonificación para hermanos?
+    - La Institución tiene alguna oferta de beneficios para los alumnos?
+    - Cuento con un hermano estudiando en la misma ¿ ofrecen descuentos? ¿Algun beneficio por estudiar aqui?
+    - ¿Tienen becas? Tengo un hermano que cursa en la universidad ¿Hay algún descuento si me inscribo?
+    - Las becas son nivelatorias?
+    - ¿Existen becas? ¿Existen bonificación para hermanos?
+    - ¿Hay algún descuento?
+    - Si mi situación familiar, económica o académica favorecieran para postularme a alguna beca ¿qué trámite debería realizar? Si tuviese un/a hermano/a cursando en la Universidad, ¿podría acceder a alguna - bonificación en las cuotas?
+    - Existen otorgamientos de becas? Que tipo?
+    - hola, quisiera saber si tienen becas para las carreras?
+    - ¿Que tipo se beneficios brinda la universidad a los estudiantes?
+    - Con que beneficios cuantan los estudiantes a la hora de inscribirse?
+    - La universidad otorga algún tipo de beca o bonificacion para hermanos en las cuotas?
+
+- intent: informar_horarios_trabajadores
+  examples: |
+    - Existen horarios diferenciados para trabajadores?
+    - Existe algúna resolución que ampare a estudiantes que trabajan?
+    - existe alguna flexibilidad para los que trabajamos aparte de estudiar?
+    - Hay flexibilidad de horarios en la cursada si trabajo.
+    - Existe consideración por las personas que trabajan?
+    - Si trabajo y estudio, puedo tener horarios flexibles?
+    - Hay flexibilidad horaria para las personas que trabajan y estudian?
+    - ¿Existe contemplación con el tema de los horarios, en el caso de trabajo?
+    - ¿Cual es la flexibilidad de horarios si tengo un trabajo?
+    - ¿Flexibilizan las asistencias debido a que trabajo?
+    - Hola, le escribo para consultar. En el caso de que trabaje y estudie en la universidad ¿debo presentar certificado? ¿justifica mis faltas a clases?
+    - En relación a los horarios, como trabajo y estudio, existe alguna posibilidad respecto a los horarios y las asistencias?
+    - ¿La UGD contempla las diferentes condiciones de los estudiantes? Por ejemplo, si trabajo ¿cuento con un respaldo para que eso no sea un impedimento para estudiar? En el caso de que cuente con respaldos ¿Cuáles son?
+    - Hay flexibilidad en los horarios?
+    - Cuenta con flexibilidad en horarios o cursados? ya q actualmente trabajo media jornada.
+    - Tengo una alternativa de cursado e-learning y otros días presencial?
+    - Si trabajo y estudio ¿ Cuáles son mis posibilidades con respecto a los horarios de cursada?
+    - ¿Hay libertad horaria?
+    - Si mis obligaciones laborales se superpusieran al horario de la cursada, ¿podría acceder a consideraciones excepcionales que contemplen esa situación para asistir a las clases? ¿Puedo elegir los horarios de cursado?
+    - Existe flexibilidad horaria para el cursado en el caso que trabaje? 
+    - estudiar en el dachary me permite tener un trabajo aparte?
+    - En cuanto a mi situación laboral ¿Que ayuda me brinda la universidad, con respecto a las faltas y horarios?
+    - Las carreras poseen flexibilidad en los horarios? 
+    - Hola,quiero consultarle respecto a los horarios y asistencias porque trabajo y estudio? Tienen algún tipo de contemplación en este caso?
+
+- intent: informar_equivalencias
+  examples: |
+    - ¿Me reconocen las materias ya aprobadas en otra universidad?
+    - ¿Reconocen las materias ya aprobadas en otros lugares?
+    - Cómo podría hacer para que me reconozcan las materias aprobadas de otra facultad?
+    - que equivalencias me toman de mi universidad
+    - Me reconocen las materias que ya aprobé en la otra universidad?
+    - Buenas tardes, quisiera saber si la facultad cuenta con algún convenio con otras facultades, con el fin de saber si realizo el cambio de facultad, reconoce ciertas materias aprobadas
+    - Reconocen materias aprobadas en una universidad pública como la UNAM?
+    - Si ya aprobé algunas materias me las tienen en cuenta?
+    - Hola buenos días, estoy en segundo año y aprobé todas las materias de primero de abogacía y aprobé las materias del primer cuatrimestre del segundo, no puedo seguir pagando la universidad por cuestiones familiares, si me cambio de facultad, me reconocen las materias en otra universidad?
+    - Hola quería saber si me reconocen las materias del cursado en el Dachary de la carrera ING de sistemas
+    - ¿Me toman las materias de otra carrera?
+    - Siempre y cuando sea "Universidad" y la cátedra correspondiente considere que se abordaron todos los temas.
+    - Otra universidad me reconoce las materias ya aprobabas?
+    - ¿Puedo validar mis materias aprobadas de otra universidad y así continuar la cursada?
+    - me reconocen las materias aprobadas en otra universidad?
+
+- intent: informar_intercambio_de_estudio
+  examples: |
+    - ¿Puedo hacer intercambio de estudios? ¿Dónde? ¿Con qué valor?
+    - ¿Puedo realizar intercambio de estudios? ¿Dónde? ¿Cuanto costaría?
+    - Hola , podría realizar un intercambio de estudios y de ser así que costo tendría ?
+    - estan permitidos los intercambios con otras universidades?
+    - Buenas tardes, será que me pueden decir como hago para hacer un intercambio de estudios? Cómo lo haría y cuanto saldría?
+    - Hola, quisiera cambiar de carrera, debería abonar nuevamente la inscripción? Si es así, de cuanto es el valor de la misma?
+    - Es posible hacer una experiencia de intercambio de estudio en Australia?
+    - Se pueden hacer intercambios? Me pasas la lista de lugares? Precio? Gracias
+    - Si estoy estudiando en la universidad, puedo ir de intercambio a otra? Si es posible a dónde puedo ir? Y cuál es el costo?
+    - Buenas quería saber si tienen disponible algún programa de intercambio. De ser asi, a qué costó. Gracias
+    - ¿Puedo hacer intercambios académicos en otro centro de estudios? Donde y precios
+    - Hola, puedo un intercambio de estudios? Donde? que valor tiene?
+    - ¿Existe el intercambio universitario? ¿Tiene algún costo o requisito?
+    - puedo hacer intercambio de estudio?
+
+- intent: informar_asistencia
+  examples: |
+    - ¿La asistencia a clases es obligatoria?
+    - ¿Es presencial?
+    - El cursado es obligatorio?
+    - cual es el porcentaje de asistencia obligatoria
+    - Es obligatorio asistir a clases?
+    - Hola buenas tardes, la asistencia a cada clase es obligatoria o depende de cada profesor?
+    - Es obligatorio asistir a clases presenciales?
+    - Las materias son presenciales?
+    - La cursada de la carrera es presencial? Hay un margen de asistencia obligatoria?
+    - Que porcentaje de asistencia tengo que cumplir?
+    - ¿La asistencia presencial es obligatoria?
+    - Es obligatorio ir a clases?
+    - ¿La cursada es presencial o a distancia?
+    - es obligatorio asistir a clases?
+
+- intent: informar_examen_recuperatorio
+  examples: |
+    - ¿Cómo son los exámenes? ¿Existen recuperatorios?
+    - ¿Cómo toman los exámenes? ¿Hay recuperatorios?
+    - Que modalidad de exámen utilizan ? Existe un recuperatorio por cada uno o solo un global?
+    - cual es el plan de estudios
+    - Como son los exámenes? Tienen recuperatorios?
+    - Cuantos exámenes tenes el cuatrimestre? Cada examen tiene su recuperatorio o existe solo uno para todos los exámenes?
+    - Los exámenes son escritos u orales? Se puede rendir libre?
+    - En que forma se toman los exámenes? Se pueden recuperar?
+    - Cómo es el método de evaluación? Hay trabajos prácticos obligatorios? Parciales y recuperatorios? - Con cuánto se aprueba?
+    - Me pueden explicar cómo y cuántos exámenes tengo para cada materia?
+    - ¿Cuales son los modelos de parciales y como son?¿Cuentan con recuperatorios?
+    - Como es el tema de los examenes?como puedo rendirlos? Tienen recuperatorios?
+    - ¿Los exámenes son presenciales ? ¿Cuantos recuperatorios tengo por materia?
+    - como son los examenes?
+
+- intent: informar_ayuda_informatica_ingles
+  examples: |
+    - ¿Me ayudan en Informática y en Inglés?
+    - ¿Tienen clases de apoyo en Informática y en Inglés?
+    - Hay ayudas para los alumnos en las cátedras de informática y inglés ?
+    - Hay clases de apoyo en inglés e informática?
+    - Es necesario tener una buena base en el idioma inglés o la carrera cuenta con esa materia dentro de su programa?
+    - Recibiré apoyo en asignaturas con informática o inglés por parte de un profesor?
+    - Existen tutorías de informática e ingles?
+    - En mi escuela no me enseñaron sobre algunas materias, no tengo una buena base, me proporcionan ayuda en esas materias, por ejemplo informática?
+    - Quería saber si tienen algún tipo de profes de apoyo para ciertas materias
+    - Necesito ayuda en informática e inglés.
+    - Dan ayuda en informatica y en ingles?
+    - ¿Cuento con clases de apoyo en las áreas que tenga complicaciones?
+
+- intent: informar_nivel_profesores
+  examples: |
+    - ¿Cuál es el nivel académico de los profesores?
+    - ¿Qué nivel académico tienen los profesores?
+    - Con que validaciones o titulaciones cuentan los profesores ?
+    - los profesores son buenos
+    - Los profesores son idóneos?
+    - Buenas noches, quisiera saber si se puede obtener el historial académico de cada profesor?
+    - Que nivel de estudios y experiencia tienen los profesores?
+    - Que nivel tienen los profesores? Hay acceso a sus currículums?
+    - Los profesores que me van a dar clases son profesores con experiencia? O  son recién recibidos? Hay algún doctor que nos enseñe en las clases?
+    - Quería saber si los profesores son ingenieros o qué título tienen. Gracias
+    - ¿Que estudios tienen los profesores?
+    - que nivel academico tienen los profesores?
+    - ¿Todos los profesores son idóneos en sus áreas?
+
+- intent: informar_equipamiento_tecnologico
+  examples: |
+    - ¿Cómo es el equipamiento tecnológico de la Universidad ?
+    - ¿Qué equipamiento tecnológico tiene la Universidad Gastón Dachary?
+    - Que clase de equipos posee la universidad Gastón dachary?
+    - cuentan con aulas equipadas tecnologicamente
+    - Cómo es el equipamiento de la Facultad?
+    - Hola, la facultad cuenta con un laboratorio informático para utilizar las pc's? Por que no cuento con notebook para poder llevar a clases
+    - Como son los equipos de cómputo y la infraestructura tecnología de la universidad? Los laboratorios cuentan con computadoras de última generación?
+    - Buenas tardes, el Dachary cuenta con laboratorio tecnológico? Que tiene?
+    - Con que elementos contamos para nuestra educación o futura educación? Con que equipamiento cuenta la facultad ? O debemos adquirir los elementos para el estudio?
+    - Quería saber que tipo de máquinas tienen en el laboratorio
+    - ¿Con qué tecnología cuentan en la Universidad?
+    - Que equpamiento tecnologico tiene la UGD?
+    - ¿Cómo funcionan las instalaciones de la universidad?
+
+- intent: informar_servicios
+  examples: |
+    - ¿Con qué servicios cuenta la Universidad?
+    - ¿Qué servicios ofrece la Universidad?
+    - Que servicios ofrece la universidad ?
+    - existen servicios como bufet?
+    - Que servicios ofrece la Universidad?
+    - Buenas tardes, la facultad cuenta con gimnasio propio? O presenta algún tipo de servicio para poder ocupar dentro del establecimiento? Cancha de fútbol, piscina, biblioteca, etc?
+    - Brindan algún servicio de comedor o albergue temporal?
+    - Hola, me podrías enviar la lista de servicios?
+    - Además de lo que ya pregunté, que otras cosas nos ofrece la universidad? A qué podemos acceder al cursar una carrera? Que beneficios tengo?
+    - Hola, me gustaría saber cuáles son los servicios de los que puedo disponer como alumno
+    - ¿Que carreras tiene la Facultad?
+    - que servicios tiene la universidad?
+    - ¿Que comodidades brinda la universidad a sus estudiantes?
+
