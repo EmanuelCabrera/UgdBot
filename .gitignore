@@ -1,4 +1,11 @@
 /rasa_core.log
 /story_graph.dot
 /models
+/venv
 .vscode
+ngrok
+events.db
+events.db-shm
+events.db-wal
+rasa.db
+graph.html

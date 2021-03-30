@@ -415,3 +415,8 @@ nlu:
     - que servicios tiene la universidad?
     - ¿Que comodidades brinda la universidad a sus estudiantes?
 
+- intent: out_of_scope
+  examples: |
+    - Quiero ordenar comida
+    - ¿Cuanto es 2 + 2?
+    - Quien es el presidente de Argentina?
