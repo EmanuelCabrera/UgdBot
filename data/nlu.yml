@@ -420,3 +420,11 @@ nlu:
     - Quiero ordenar comida
     - ¿Cuanto es 2 + 2?
     - Quien es el presidente de Argentina?
+
+- intent: contactos
+  examples: |
+    - Hola a que numero puedo comunicarme?
+    - A que contacto puedo comunicarme?
+    - Cuál es el numero de contacto?
+    - A que mail puedo mandar mi consulta?
+    - Cual es el mail de administración?

@@ -51,6 +51,10 @@ intents:
     use_entities: true
 - out_of_scope:
     use_entities: true
+- nlu_fallback:
+    use_entities: true
+- contactos:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -122,6 +126,9 @@ responses:
   utter_default:
   - text: |
       Perdón, no pude entender eso. Podrías reformular tu pregunta?
+  utter_contactos:
+  - text: |
+      Te paso un enlace con la [Lista de contactos según las sedes](https://www.ugd.edu.ar/contacto)
 actions: []
 forms: {}
 e2e_actions: []

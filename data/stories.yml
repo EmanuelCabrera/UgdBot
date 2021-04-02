@@ -170,3 +170,8 @@ stories:
    steps:
    - intent: informar_servicios
    - action: utter_respuesta_informar_servicios
+ 
+ - story: contactos
+   steps:
+   - intent: contactos
+   - action: utter_contactos
