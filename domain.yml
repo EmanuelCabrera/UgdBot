@@ -3,6 +3,8 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- materia
+- matricula
 - afirmacion
 - agradecimiento
 - despedida
@@ -25,10 +27,13 @@ intents:
 - informar_horarios_trabajadores
 - informar_ayuda_informatica_ingles
 - informar_nivel_profesores
-# slots:
-#   email:
-#     type: unfeaturized
-#     influence_conversation: false
+- tiempo
+entities:
+- matricula
+slots:
+  matricula:
+    type: text
+    influence_conversation: true
 responses:
   utter_saludo:
   - text: |
@@ -89,12 +94,11 @@ responses:
   utter_respuesta_visitas_consultas:
   - text: |
       Las puertas de la UGD están abiertas para todo aquel que desee conocerla.
-  # 
-# actions:
-# - '...'
-# - utter_greet
-# - utter_subscribed
-# forms:
-#   newsletter_form:
-#     email:
-#     - type: from_text
+  utter_ask_matricula:
+  - text: |
+      Con que matricula?
+actions:
+- action_datos_alumno
+- action_materia
+- action_tiempo
+- utter_ask_matricula
