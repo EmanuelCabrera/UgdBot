@@ -2,3 +2,6 @@
 /story_graph.dot
 /models
 .vscode
+/rasa2.4
+__pycache__/actions.cpython-38.pyc
+graph.html
