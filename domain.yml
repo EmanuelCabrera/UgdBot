@@ -5,58 +5,37 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- afirmacion:
-    use_entities: true
-- agradecimiento:
-    use_entities: true
-- despedida:
-    use_entities: true
-- negacion:
-    use_entities: true
-- saludo:
-    use_entities: true
-- requisitos_inscripcion:
-    use_entities: true
-- informar_servicios:
-    use_entities: true
-- informar_equipamiento_tecnologico:
-    use_entities: true
-- informar_asistencia:
-    use_entities: true
-- informar_examen_recuperatorio:
-    use_entities: true
-- informar_equivalencias:
-    use_entities: true
-- informar_intercambio_de_estudio:
-    use_entities: true
-- curso_ingreso:
-    use_entities: true
-- certificadas:
-    use_entities: true
-- evaluacion_coneau:
-    use_entities: true
-- plazos_inscripcion:
-    use_entities: true
-- informar_modalidad_inscripcion:
-    use_entities: true
-- visitas_consultas:
-    use_entities: true
-- informar_becas_hermanos:
-    use_entities: true
-- informar_horarios_trabajadores:
-    use_entities: true
-- informar_ayuda_informatica_ingles:
-    use_entities: true
-- informar_nivel_profesores:
-    use_entities: true
-- out_of_scope:
-    use_entities: true
-- nlu_fallback:
-    use_entities: true
-- contactos:
-    use_entities: true
-entities: []
-slots: {}
+- materia
+- matricula
+- afirmacion
+- agradecimiento
+- despedida
+- negacion
+- saludo
+- requisitos_inscripcion
+- informar_servicios
+- informar_equipamiento_tecnologico
+- informar_asistencia
+- informar_examen_recuperatorio
+- informar_equivalencias
+- informar_intercambio_de_estudio
+- curso_ingreso
+- certificadas
+- evaluacion_coneau
+- plazos_inscripcion
+- informar_modalidad_inscripcion
+- visitas_consultas
+- informar_becas_hermanos
+- informar_horarios_trabajadores
+- informar_ayuda_informatica_ingles
+- informar_nivel_profesores
+- tiempo
+entities:
+- matricula
+slots:
+  matricula:
+    type: text
+    influence_conversation: true
 responses:
   utter_saludo:
   - text: |
@@ -129,6 +108,11 @@ responses:
   utter_contactos:
   - text: |
       Te paso un enlace con la [Lista de contactos según las sedes](https://www.ugd.edu.ar/contacto)
-actions: []
-forms: {}
-e2e_actions: []
+  utter_ask_matricula:
+  - text: |
+      Con que matricula?
+actions:
+- action_datos_alumno
+- action_materia
+- action_tiempo
+- utter_ask_matricula

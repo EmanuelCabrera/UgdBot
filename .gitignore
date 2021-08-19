@@ -9,3 +9,5 @@ events.db-shm
 events.db-wal
 rasa.db
 graph.html
+/rasa2.4
+__pycache__/actions.cpython-38.pyc

@@ -175,3 +175,14 @@ stories:
    steps:
    - intent: contactos
    - action: utter_contactos
+   
+ - story: interactive_story_1
+   steps:
+   - intent: materia
+   - action: utter_ask_matricula
+   - intent: matricula
+     entities:
+      - matricula: '66031'
+   - slot_was_set:
+      - matricula: '66031'
+   - action: action_materia
